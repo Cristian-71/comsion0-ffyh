@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
-title: Comision cero FFyH.
+title: Comision cero FFyH
+email: cristian-15071@hotmail.com
 description: Guia de estudiantes de FFyH
+email: cristian-15071@hotmail.com
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "http://comision0-ffyh.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: #jekyllrb
+github_username: Cristian-71
+
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
