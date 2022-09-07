@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="./pages/guarani/guarani.css">
+        <script src="./pages/guarani/src/guarani.js"></script>
+        <link rel="icon" href="./pages/home/imagenes/logo.png">
+        <title>Guía Guaraní</title>
+    </head>
+    <body onload="carga_inicial()">
+        <div id="root">
+            <!-- component header -->
+            <header id="header_desktop">
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+                <div class="menu_div">
+                    <button class="boton_menu" onclick = "change_html('./index.html')">
+                        Home
+                    </button>
+                    <button id ="boton_pagina_actual">  
+                        Guaraní
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./carreras.html')">
+                        Carreras
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes
+                    </button>
+                </div>
+            </header>
+
+            <header id="header_smartphone">
+                <div class="menu_div">
+                    <button class="boton_menu" id="boton_menu_smartphone">
+                        <svg class="icono-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>                   
+                    </button>
+                </div>
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+
+            </header>
+
+            <div class="menu_div" id="menu_div_smartphone">
+                <div class="background_menu_div_smartphone"></div>
+                <div class ="botones_meu_div_smartphone">
+                    <button class="boton_menu" onclick = "change_html('./index.html')">
+                        Home
+                    </button>
+                    <button id ="boton_pagina_actual">  
+                        Guaraní
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./carreras.html')">
+                        Carreras
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes
+                    </button>
+                </div>
+            </div>
+
+            <main id="main">
+                <section id="contenido">
+                    <div class="titulo_main">
+                        <p>TRAMITES DEL GUARANI<p>
+                    </div>
+                    <div class = "contenido_main" id = "contenido_main">
+                    </div> 
+                </section>
+
+                <div id="barra_lateral_main">
+                    <img src="data:image/png;base64,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">
+                </div>
+
+            </main>
+            
+            <script type="module" src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </script> 
+            <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+            <footer>
+                <div class="waves">
+                    <div class="waves" id="waves1"></div>
+                    <div class="waves" id="waves2"></div>
+                    <div class="waves" id="waves3"></div>
+                    <div class="waves" id="waves4"></div>
+                </div>
+        
+                <ul class="social_icon">
+                    <li><a href="https://es-la.facebook.com/ffyh.unc/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/ffyhunc/?hl=es" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/school/fcefyn/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/EnzoDon/frontend.git" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+                <ul class="menu">
+                <!--    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Contact</a></li>-->
+                </ul>
+                <p>2022 Comision cero [ COMØ ] All Rights Reserveds</p>
+            </footer>
+        </div>
+    </body>
+    
+    
+</html>

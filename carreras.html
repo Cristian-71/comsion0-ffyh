@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./pages/carreras/carreras.css">
+        <link rel="icon" href="./pages/home/imagenes/logo.png">
+        <script src="./pages/carreras/src/carreras.js"></script>
+        
+        <title>Guía Carreras</title>
+    </head>
+    <body onload="carga_inicial()">
+        <div id="root">
+            <header id="header_desktop">
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+                <div class="menu_div">
+                    <button class="boton_menu" onclick = "change_html('./index.html')">
+                        Home                    
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./guarani.html')">  
+                        Guaraní
+                    </button>
+                    <button id ="boton_pagina_actual">
+                        Carreras  
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes   
+                    </button>
+                </div>
+            </header>
+
+            <header id="header_smartphone">
+                <div class="menu_div">
+                    <button class="boton_menu" id="boton_menu_smartphone">
+                        <svg class="icono-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>                   
+                    </button>
+                </div>
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+
+            </header>
+
+            <div class="menu_div" id="menu_div_smartphone">
+                <div class="background_menu_div_smartphone"></div>
+                <div class ="botones_meu_div_smartphone">
+                    <button class="boton_menu" onclick = "change_html('./index.html')">
+                        Home                    
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./guarani.html')">  
+                        Guaraní
+                    </button>
+                    <button id ="boton_pagina_actual">
+                        Carreras  
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes   
+                    </button>
+                </div>
+            </div>
+
+
+            <main id="main">
+                <section id="contenido_main">
+                    <div class="titulo_main">
+                        <p>La facultad de Filosofia y Humanidades tiene muchas carreras de grado.<p>
+                    </div>
+                    <div id="contenido"> 
+
+                        <button class="boton_contenido" id="departamento_antropologia_boton">Departamento de Antropologia</button>
+                        <div class="seccion_contenido" id="departamento_antropologia_contenido">
+                        <a href="https://ffyh.unc.edu.ar/grado/departamento-de-antropologia/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                        <a href="https://blogs.ffyh.unc.edu.ar/antropologia/" target="_blank" rel="noopener noreferrer">Blog de Antropologia</a>
+
+
+                            <a href="https://blogs.ffyh.unc.edu.ar/antropologia/informacion/sobre-el-plan/" target="_blank" rel="noopener noreferrer">Plan de estudio.</a>
+                        </div>
+                        <button class="boton_contenido" id="escuela_archivología_boton">Escuela de Archivología</button>
+                        <div class="seccion_contenido" id="escuela_archivología_contenido">
+                            <a href="https://ffyh.unc.edu.ar/grado/escuela-de-archivologia/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/archivologia/author/archivologia/" target="_blank" rel="noopener noreferrer">Blog de Archivología</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/archivologia/plan-de-estudios-2000/" target="_blank" rel="noopener noreferrer">Plan de estudio.</a>
+                        </div>
+                        <button class="boton_contenido" id="escuela_bibliotecología_boton">Escuela de Bibliotecología</button>
+                        <div class="seccion_contenido" id="escuela_bibliotecología_contenido">
+                            <a href="https://ffyh.unc.edu.ar/grado/departamento-de-antropologia/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/bibliotecologia/" target="_blank" rel="noopener noreferrer">Blog de Escuela de Bibliotecologí </a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/bibliotecologia/plan-de-estudio/plan-de-estudio-vigente/" target="_blank" rel="noopener noreferrer">Plan de estudio.</a>
+                        </div>
+                        <button class="boton_contenido" id="escuela_ciencias_educación_boton">Escuela de Ciencias de la Educación</button>
+                         <div class="seccion_contenido" id="escuela_ciencias_educación_contenido">
+                            <a href="https://ffyh.unc.edu.ar/grado/escuela-de-ciencias-de-la-educacion/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escuelacienciaseducacion/" target="_blank" rel="noopener noreferrer">Blog de la Escuela de Ciencias de la Educación</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escuelacienciaseducacion/carreras/profesorado-en-ciencias-de-la-educacion/" target="_blank" rel="noopener noreferrer">Planes de estudio del Profesorado y Licenciatura en Ciencias de la Educación.</a>
+                        </div>
+                        <button class="boton_contenido" id="escuela_filosofía_boton">Escuela de Filosofía</button>
+                  
+                        <div class="seccion_contenido" id="escuela_filosofía_contenido">
+                            <a href="https://ffyh.unc.edu.ar/grado/escuela-de-filosofia/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escueladefilosofia/" target="_blank" rel="noopener noreferrer">Blog de la Escuela de Filosofía</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escueladefilosofia/catedras/" target="_blank" rel="noopener noreferrer">Programas de las catedras.</a>
+                        </div>
+                        <button class="boton_contenido" id="departamento_geografía_boton">Departamento de Geografía</button>
+                  
+                        <div class="seccion_contenido" id="departamento_geografía_contenido">
+                            <a href="https://ffyh.unc.edu.ar/grado/departamento-de-geografia/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/deptodegeografia/" target="_blank" rel="noopener noreferrer">Blog del Departamento de Geografía</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/deptodegeografia/reglamentaciones-2/" target="_blank" rel="noopener noreferrer">Reglamentaciones y fichas de inscripciones</a>
+                        </div>
+                        <button class="boton_contenido" id="escuela_historia_boton">Escuela de Historia</button>
+                  
+                        <div class="seccion_contenido" id="escuela_historia_contenido">
+                            
+                            <a href="https://ffyh.unc.edu.ar/grado/escuela-de-historia/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escueladehistoria/" target="_blank" rel="noopener noreferrer">Blog de la Escuela de Historia</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escueladehistoria/institucional/plan-de-estudios/programas-de-materias-y-seminarios/" target="_blank" rel="noopener noreferrer">Programas de materias y seminarios</a>
+                        </div>
+
+                        <button class="boton_contenido" id="escuela_letras_boton">Escuela de Letras</button>
+                  
+                        <div class="seccion_contenido" id="escuela_letras_contenido">
+                            
+                            <a href="https://ffyh.unc.edu.ar/grado/escuela-de-letras/" target="_blank" rel="noopener noreferrer">Seccion de la pagina de la Facultad.</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escueladeletras/" target="_blank" rel="noopener noreferrer">Blog de la Escuela de Letras</a>
+                            <a href="https://blogs.ffyh.unc.edu.ar/escueladeletras/plan-de-estudios-y-cursado/" target="_blank" rel="noopener noreferrer">Planes de estudios.</a>
+                        </div>
+                    </div>
+
+                </section>
+
+            </main>
+
+            <script type="module" src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </script>
+            <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+            <footer>
+                <div class="waves">
+                    <div class="waves" id="waves1"></div>
+                    <div class="waves" id="waves2"></div>
+                    <div class="waves" id="waves3"></div>
+                    <div class="waves" id="waves4"></div>
+                </div>
+        
+                <ul class="social_icon">
+                    <li><a href="https://es-la.facebook.com/ffyh.unc/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/ffyhunc/?hl=es" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/school/fcefyn/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/EnzoDon/frontend.git" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+                <ul class="menu">
+                <!--    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Contact</a></li>-->
+                </ul>
+                <p>2022 Comision cero [ COMØ ] All Rights Reserveds</p>
+            </footer>
+        </div>
+        
+    </body>
+
+</html>

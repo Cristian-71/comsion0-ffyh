@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!--<script src="https://kit.fontawesome.com/9eb45967b7.js"></script>-->
+
+        <link rel="stylesheet" href="./pages/home/home.css">
+        <script src="./pages/home/src/home.js"></script>
+        <link rel="icon" href="./pages/home/imagenes/logo.png">
+    </head>
+
+    <body onload="carga_inicial()">
+        <div id="root">
+            <header id="header_desktop">
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+                <div class="menu_div">
+                    <button id ="boton_pagina_actual">
+                        Home
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./guarani.html')">
+                        Guaraní
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./carreras.html')">
+                        Carreras
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes
+                    </button>
+                </div>
+            </header>
+
+
+            <header id="header_smartphone">
+                <div class="menu_div">
+                    <button class="boton_menu" id="boton_menu_smartphone">
+                        <svg class="icono-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>                   
+                    </button>
+                </div>
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+
+            </header>
+
+            <div class="menu_div" id="menu_div_smartphone">
+                <div class="background_menu_div_smartphone"></div>
+                <div class ="botones_meu_div_smartphone">
+                    <button id ="boton_pagina_actual">
+                        Home
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./guarani.html')">
+                        Guaraní
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./carreras.html')">
+                        Carreras
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes
+                    </button>
+                </div>
+            </div>
+
+            <main id="main">
+                <div id="vacio"><br><br><br><br><br><br>
+                    <p class="titulo">Bienvenidos<p>
+                    <p class="titulo">¡Bienvenidos!</p>
+                    <p class="titulo">Guía de estudiantes</p>
+                </div>
+                <div id="contenido">
+                        <button class="boton_contenido" id="quienes_somos_boton">➡️¿Quiénes somos?</button>
+                        <div class="seccion_contenido" id="quinenes_somos_contenido">
+                            <p>Somos un grupo de estudiantes de diferentes carreras que en el marco del programa Programando futuros, desarrollamos esta pagina web para 
+                            ayudar a ingresantes y estudiantes durante el transcurso de su carrera.</p>
+                        </div>
+                        <button class="boton_contenido" id="ayuda_boton">¿Cómo esperamos ayudarte?</button>
+                        <div class="seccion_contenido" id="ayuda_contenido">
+                            <p>
+                                El inicio de una carrera universitaria es complejo y entre tantos cambios podemos llegar a agobiarnos, 
+                                en esta página podrás encontrar respuesta a muchas preguntas para que no se haga aún más complicado este
+                                nuevo arranque!
+                            </p>
+                            <p>
+                                En la <b>sección Guaraní </b>encontraras información sobre los tramites y consultas que se pueden realizar en él. <br>
+                                En la <b>sección carreras</b> encontrarás información sobre las carreras que se dictan en la FFyH<br>
+                                En la <b>sección preguntas frecuentes </b>se encuentran respuestas a algunas de las preguntas que te pueden surgir.</p>
+                            <p>¡Si sos ingresante, mucha suerte, esta etapa será muy buena! Y si ya sos estudiante regular, vos podes! </p> 
+   
+                        </div>
+
+                        <button class="boton_contenido" id="inscripcion_boton">¿Que necesito saber para Inscribirme a la carrera?</button>
+                        <div class="seccion_contenido" id="inscripcion_contenido">
+                            <p> 
+                                Hay mucha información sobre la facultad, que a los ingresantes puede marearlo, recomendamos prestar atención a lo siguiente:<br>
+                                <b>La facultad tiene dos estancia de inscripción</b>, una por primavera y otra en verano, hay grupos de estudiantes que crean grupo de wasap para ayudarlos. <br>
+                                Las fechas donde uno se puede presentar a rendir <b>"después de inscripto"</b>, son primavera, verano y otoño,<b> no hay inscripciones a la carrera en otoño.</b><br>
+                                
+                                <b>El ingreso en esta facultad no es eliminatorio.</b><br>
+                                Pero si nivelatorio, o sea necesitas el conocimiento de la materia del cursillo, para cursar otras materias de primer año.<br>
+                                <b>Tu inscripción termina cuando te anotes a las materias por la pág. Guaraní</b>, debes tener eso en cuenta. <br>
+                                <b>En la facultad ya no se usa libretas para la nota, sino se usa una pág. llamada "SIU Guaraní"</b>, donde la notas o aprobado o desaprobado se subirán ahí. <br>
+                                También otra página que se usa para el cursado es el LEV o Aula virtual, donde una vez que te inscribas, se te creara un usuario, y una vez inscripto a la materia, 
+                                los profes te agregaran a sus aulas virtuales. Cada materia tiene su propia aula virtual, donde suben material de estudio y dan notificaciones sobre el cursado, también hay foro de consultas.<br>
+                                <b>En link útiles podrás encontrar los enlaces, además de otras páginas</b>.<br>
+                                A medida que vayas cursando te surgirán más preguntas, sobre tramites, y uso de las paginas, esperamos proveerte todo lo necesario aquí.<br>
+                                <b>Existos en la carrera !!</b>
+
+                            </p>
+                            <a href="https://ffyh.unc.edu.ar/" target="_blank">Pag de la facultad</a><br>
+                            
+                            <br><a href="https://blogs.ffyh.unc.edu.ar/casaverde/" target="_blank" rel="noopener noreferrer">Despacho Alumno y Oficilia - Casa Verde.</a>
+                            
+                            <br><p> Abajo estará el <b>"Manual de ingresante"</b> <br>
+                                Se <b>divide en tres parte</b>, leer con atención:<br> 
+                                La primera parte es para lo que se inscriben por primera vez<br>
+                                La segunda parte es para lo que vienen de otras facultades. <br>
+                                La tercera parte para lo que ya están inscripto en la facultad.
+                                </p><br>
+                            <a href="https://fcefyn.unc.edu.ar/facultad/secretarias/academica/ciclo-de-introduccion-a-los-estudios-universitarios-cineu/instructivos-de-inscripcion/"  target="_blank">Manual del ingresante</a>
+                            <br><a href="./guarani.html" target="_blank">¿Como inscribirme a la carrera?</a>
+                        </div>
+
+                        <button class="boton_contenido" id="links_boton">✅Link útiles</button>
+                        <div class="seccion_contenido" id="links_contenido">
+                            <ul class="imagenes_de_iconos">
+                                <li>
+                                    <a title="UNC GENERAL" href="https://www.unc.edu.ar/"  target="_blank"><img src="./pages/home/imagenes/Universidad_Nacional_de_Córdoba.png" alt="unc general" /></a>
+                                </li>
+                                <li>
+                                    <a title="AULA VIRTUAL" href="https://ffyh.aulavirtual.unc.edu.ar/login/index.php"  target="_blank"><img src="./pages/home/imagenes/moodle.png" alt="aula virtual" /></a>
+                                </li>
+                                <li>
+                                    <a title="SIU GUARANI UNC" href="https://autogestion.guarani.unc.edu.ar/"  target="_blank"><img src="./pages/home/imagenes/guarani.png" alt="guarani" /></a>
+                                </li>
+                                <li>
+                                    <a title="PAGINA DE LA FACULTAD" href="https://ffyh.unc.edu.ar/"  target="_blank"><img src="./pages/home/imagenes/logo-ffyh-2.png" alt="pagina de la facultad" /></a>
+                                </li>        
+                                <li>
+                                    <a title="PAGINA BIBLIOTECA FFYH" href="https://ffyh.unc.edu.ar/biblioteca/"  target="_blank"><img src="./pages/home/imagenes/biblioteca.png" alt="pagina de la biblioteca de la Fcefyn" /></a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <button class="boton_contenido" id="calendario_boton">Fechas importantes</button>
+                        <div class="seccion_contenido" id="calendario_contenido">
+                            <a href="https://blogs.ffyh.unc.edu.ar/casaVerde/calendario-academico/" target="_blank" rel="noopener noreferrer">Calendario Academico.</a>
+                            <a href="./pages/home/documentos/calendario-academico-2022_GradoyPregrado.pdf" download="Calendario Academico 2022 GradoyPregrado.pdf">Descargar Calendario Academico 2022</a>
+                           
+                        </div>
+
+
+                        <button class="boton_contenido" id="mapas_boton">🗺️ Algunos mapas y planos utiles</button>
+                        <div class="seccion_contenido" id="mapas_contenido">
+                            
+
+                            <button class="boton_seccion_contenido" id="planta_baja_boton">Plano alrededor de la Ciudad Universitaria</button>
+                            <div class="imagenes-planos" id="imagen_planta_baja">
+                                <img src="./pages/home/imagenes/planos-alrededor-ciudad-universitaria.png">
+                           </div>
+                           <button class="boton_seccion_contenido" id="planta_alta_boton">Plano de la Ciudad Universitaria</button>
+                            <div class="imagenes-planos" id="imagen_planta_alta">
+                                <img src="./pages/home/imagenes/mapa-unc-facultades.jpg">
+                           </div>
+                           <button class="boton_seccion_contenido" id="mapa_sede_ciudad_boton">Ubicación FFyH SAE</button>
+                           <iframe id="mapa_sede_ciudad" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.2233269430726!2d-64.19366742036135!3d-31.435518205988682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2f54d372bf1%3A0xf1d83ddc363cda16!2sFacultad%20de%20Ciencias%20Exactas%2C%20F%C3%ADsicas%20y%20Naturales%20(F.C.E.F.%20y%20N.)%20%5BSede%20Ciudad%20Universitaria%5D%20%7C%20U.N.C.!5e0!3m2!1ses-419!2sar!4v1659842264517!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           
+                           <button class="boton_seccion_contenido" id="mapa_sede_centro_boton">Ubicación FFyH Casa Verde</button>
+                           <iframe id="mapa_sede_centro" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.1929623388323!2d-64.19233368485143!3d-31.4363542813976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2f495f0a4c9%3A0x781f897373057b4a!2sLa%20Casa%20Verde%20%7C%20U.N.C.!5e0!3m2!1ses-419!2sus!4v1662487948302!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                </div>
+            </main>
+
+            <script type="module" src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </script> 
+            <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+            <footer>
+                <div class="waves">
+                    <div class="waves" id="waves1"></div>
+                    <div class="waves" id="waves2"></div>
+                    <div class="waves" id="waves3"></div>
+                    <div class="waves" id="waves4"></div>
+                </div>
+        
+                <ul class="social_icon">
+                    <li><a href="https://es-la.facebook.com/ffyh.unc/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/ffyhunc/?hl=es" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/school/fcefyn/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/EnzoDon/frontend.git" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+                <p>2022 Comision cero [ COMØ ] All Rights Reserveds</p>
+            </footer>
+        </div>
+
+    </body>
+</html>
+
+
+
