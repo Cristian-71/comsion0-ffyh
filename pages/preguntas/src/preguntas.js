@@ -205,7 +205,12 @@ function incluir_funcion_botones(){
     document.getElementById("cursado_bt").onclick = function() {
         show_text_padre("cursado");
     }
-
+    document.getElementById("pregunta_despacho_alumno_bt").onclick = function() {
+        show_text_hijo("pregunta_despacho_alumno");
+    }
+    document.getElementById("tramites_frecuentes_despacho_alumno_bt").onclick = function() {
+        show_text_hijo("tramites_frecuentes_despacho_alumno");
+    }
     document.getElementById("promocion_bt").onclick = function() {
         show_text_hijo("promocion");
     }
@@ -260,7 +265,7 @@ function carga_inicial(){
     `);
     incluir_seccion_hijo("asig_pend_secundario", "¿Qué pasa si no aparece mi Título/Institución de Secundario?", "ingreso");
     actualizar_parrafo("asig_pend_secundario", `
-    <p>El título del secundario es un dato obligatorio que a futuro quedará reflejado en varias documentaciones que necesites, por lo que si no aparece comunicate con el Despacho de alumnxs a fin de<br />registrarlo. <a href="https://blogs.ffyh.unc.edu.ar/casaVerde/ingresantes/" target="_blank" rel="noopener">Clic auqí para ir al formulario</a></p>
+    <p>El título del secundario es un dato obligatorio que a futuro quedará reflejado en varias documentaciones que necesites, por lo que si no aparece comunicate con el Despacho de alumnxs a fin de<br />registrarlo. <a href="https://blogs.ffyh.unc.edu.ar/casaVerde/ingresantes/" target="_blank" rel="noopener">ClicK aqUí para ir al formulario</a></p>
     `);
 
     incluir_seccion_hijo("regimen_cursado","¿Cual es el regimen de cursado?","ingreso")
@@ -318,6 +323,54 @@ function carga_inicial(){
 
    incluir_seccion_padre("cursado", "SOBRE EL CURSADO");
 
+    incluir_seccion_hijo("pregunta_despacho_alumno","¿Que es Despacho de Alumno y Oficilia? ¿Como solicitar hacer un tramite?","cursado")
+    actualizar_parrafo("pregunta_despacho_alumno",`
+    <section id="instructivo">
+    <p><span style="color: #ff00ff"><strong>Despacho de Alumnos/as</strong></span></p>
+    <p>Es el espacio de la Facultad al cual se dirigen los tramites a realizar.</p>
+    <p> Debido a la situación de emergencia sanitaria que se vivió por la pandemia por el Covid-19, Despacho de Alumnos/as decidió atender por correo electrónico, para evitar la aglomeraciones de personas que se producían años anteriores, en Casa Verde.</p>
+    <p>Para facilitarle la realizacion de los tramites/consultas a Despacho de Alumnos/as es necesario enviar la información de la siguiente manera.</p>
+        <p> Enviar correo electrónico a <a href="mailto:despachocasaverde@ffyh.unc.edu.ar">despachocasaverde@ffyh.unc.edu.ar</a> especificando en el asunto NOMBRE DEL TRAMITE A REALIZAR, en el texto especificar:</p>
+   <ul>
+    <li>NOMBRE Y APELLIDO</li>
+    <li>NUMERO DOCUMENTO</li>
+    <li>CARRERA A LA QUE PERTENECE</li>
+</ul>
+    <p>Es necesario describir con detalles, la explicación del problema, especificar trámite que desea realizar, pasos qué realizó, error que menciona el sistema Guarani; y copiar exactamente la leyenda que aparece en cartel, en el cuerpo del mail.</p>
+    <p>Por ultimo, es importante ser paciente, en la espera de una respuesta.</p>
+    
+    <p><span style="color: #ff00ff"><strong>Oficialia</strong></span></p>
+    <p><a href="https://blogs.ffyh.unc.edu.ar/casaVerde/horario-de-atencion/" target="_blank" rel="noopener noreferrer">HORARIO DE ATENCIÓN</a> DE TELETRABAJO DE LUNES A VIERNES DE 08:00 a 14:00 Hs</p>
+
+    <p>Para consultas de Oficialia dirigir un correo a <a href="mailto:oficialia@ffyh.unc.edu.ar">oficialia@ffyh.unc.edu.ar</a></p>
+    <p><a href="https://blogs.ffyh.unc.edu.ar/casaVerde/horario-de-atencion/" target="_blank" rel="noopener noreferrer">Horario de Atención - Despacho de Alumnos/as.</a></p>
+    </section>
+    `)
+
+    incluir_seccion_hijo("tramites_frecuentes_despacho_alumno","¿Cuales son los tramites frecuentes en Despacho de Alumnos/as?","cursado")
+    actualizar_parrafo("tramites_frecuentes_despacho_alumno",`
+    <p>Los tramites mas frecuentes son</p>
+    
+    <p><span style="color: #ff00ff"><strong>CERTIFICACIONES:</strong></span></p>
+    <ul>
+    <li><strong>Certificado de alumno regular:</strong> se imprimen directamente del Guaraní. No tiene costo y no requiere sello ni firma de parte del Despacho de Alumnos.</li>
+    <li><strong>Certificados de examen parcial y final:</strong> se utilizan para justificar días de estudio en el trabajo. Se puede retirar el formulario por Despacho de Alumnos o bien imprimir desde el sistema Guaraní. En ambos casos deben ser controlados y firmados en Despacho una vez que un docente de la cátedra los haya firmado (Titular, Adjunto o Asistente, no pueden ser firmado por adscriptos y/o ayudantes alumnos).</li>
+    <li><strong>Certificado de reinscripción anual:</strong> ya que a partir del año lectivo 2014 no se sellan más las libretas con la matriculación anual, en caso de requerir dicha constancia deberá presentar un certificado de alumno regular o una constancia de reinscripción anual (ambas se gestionan vía sistema Guaraní).</li>
+    <li><strong>Certificado de materias rendidas (analítico):</strong> se solicitan en Despacho de Alumnos.</li>
+    </ul>
+    <p><span style="color: #ff00ff"><strong>REINSCRIPCIÓN ANUAL:</strong></span></p>
+    <p>Todos los años deberás reinscribirte (vía Guaraní) para poder realizar cualquier actividad académica (cursar materias, rendir regular o libre, etc.). Consultar las fechas de matriculación anual en el Calendario Académico.</p>
+    <p><span style="color: #ff00ff"><strong>INSCRIPCIÓN A CURSADAS:</strong></span></p>
+
+<p>Una vez que hayas realizado la matriculación anual, podrás inscribirte en las materias que quieras cursar seleccionando la comisión correspondiente (se recomienda consultar previamente los horarios y días de cursado para elegir la opción conveniente).</p>
+<p><span style="color: #ff00ff"><strong>EXTRAVÍO O DETERIORO DE LIBRETAS:</strong></span></p>
+<p>Si perdiste o se deterioró tu libreta de trabajos prácticos, debés hacer un duplicado. Para ello, deberás realizar una exposición policial por el extravío y traer el comprobante, comprar una libreta nueva en el centro comercial de Ciencias Económicas. El trámite se realiza en Despacho de Alumnos los días y horarios de atención.</p>
+<p><span style="color: #ff00ff"><strong>PROBLEMAS O CONSULTAS SOBRE EL SISTEMA GUARANÍ:</strong></span></p>
+<p>Podés comunicarte con <a href="https://blogs.ffyh.unc.edu.ar/casaVerde/horario-de-atencion/" target="_blank" rel="noopener noreferrer"><strong>Despacho de Alumnos</strong></a> en los días y horarios de atención o vía e-mail a: <a href="mailto:despachocasaverde@ffyh.unc.edu.ar">despachocasaverde@ffyh.unc.edu.ar</a></p>
+<p><span style="color: #ff00ff"><strong>PROBLEMAS O CONSULTAS SOBRE EL AULA VIRTUAL:</strong></span></p>
+    <p>Podés comunicarte al siguiente mail: <a href="mailto:despachocasaverde@ffyh.unc.edu.ar">despachocasaverde@ffyh.unc.edu.ar</a></p>
+    Ademas podes seguir el siguiente instructivo que se encuentra descripto en la pregunta: <span style="color: #FF0000"><strong><i>¿Que es Despacho de Alumno y Oficilia? ¿Como solicitar hacer un tramite?</i></strong></span></p>
+    `)
    incluir_seccion_hijo("promocion", "¿Qué es promocionar? ¿Qué significa?", "cursado");
    actualizar_parrafo("promocion", `
    Se denomina promoción haber cumplido todas las condiciones presentadas en el programa de una catedra en particular.<br>
