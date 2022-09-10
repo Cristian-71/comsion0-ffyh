@@ -288,7 +288,7 @@ a{
 li{
     color: #001933;
 }
-
+    
 #root .bt_cont:hover{
     background-color: #00A878;
     box-shadow: 0 0 10px #93ffa1, 0 0 40px #93ffa1, 0 0 80px #93ffa1;

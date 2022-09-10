@@ -220,7 +220,8 @@ function carga_inicial() {
    <img src="./pages/biblioteca/imagenes/catalogo-imagen-biblioteca-ffyh.png" alt="Tips sacar foto al documento" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;">
   
  
-   <p><strong>Fuente:</strong> Pagina del Catalogo de la Biblioteca Libros y Revistas.<a href="https://ffyh.biblio.unc.edu.ar/"target="_blank" rel="noopener">Haga click aqui.</a></p>`)
+   <p><strong>Fuente:</strong> Pagina del Catalogo de la Biblioteca Libros y Revistas.</p>
+   <p>Para dirigirse al Sitio: <a href="https://ffyh.biblio.unc.edu.ar/"target="_blank" rel="noopener"><strong>Haga click aqui.</strong></a></p>`)
 
 
 
@@ -238,61 +239,56 @@ function carga_inicial() {
     incluir_seccion_hijo("acceso_titulo_autor", "Acceso al texto completo por título y autor", "tutoriales")
     actualizar_parrafo("acceso_titulo_autor", `
     <p>Video de tutorial de la pagina oficial de la Biblioteca FFyH </p>
-    <div>
-    <span class="embed-youtube" style="text-align:center; display: block;">
-    <iframe loading="lazy" class="youtube-player" width: 100%; height: 100%; src="https://www.youtube.com/embed/QIvOg74QsjA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
+    <div class="embed-youtube" style="text-align:center; display: block;">
+    <iframe loading="lazy" class="youtube-player"; 
+    src="https://www.youtube.com/embed/QIvOg74QsjA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent"
+    allowfullscreen="true" style="border:0; width: 100%; height: 80vh" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
     </iframe>
-    </span>
     </div>
     `)
 
     incluir_seccion_hijo("acceso_busqueda_tema", "Acceso al texto completo con búsqueda avanzada por tema", "tutoriales")
     actualizar_parrafo("acceso_busqueda_tema", `
     <p>Video de tutorial de la pagina oficial de la Biblioteca FFyH </p>
-    <div>
-    <span class="embed-youtube" style="text-align:center; display: block;">
-    <iframe loading="lazy" class="youtube-player" width: 100%; height: 100%; src="https://www.youtube.com/embed/57bmlkfI4gE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
+    <div class="embed-youtube" style="text-align:center; display: block;">
+    <iframe loading="lazy" class="youtube-player"; src="https://www.youtube.com/embed/57bmlkfI4gE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" 
+    allowfullscreen="true" style="border:0; width: 100%; height: 80vh" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
     </iframe>
-    </span>
     </div>
     `)
 
     incluir_seccion_hijo("acceso_busqueda_simple_autor_titulo_tema","Búsqueda Simple por Autor, Título o Tema","tutoriales");
     actualizar_parrafo("acceso_busqueda_simple_autor_titulo_tema",`
     <p>Video de tutorial de la pagina oficial de la Biblioteca FFyH </p>
-    <div>
-    <span class="embed-youtube" style="text-align:center; display: block;">
-    <iframe loading="lazy" class="youtube-player" width: 100%; height: 100%; src="https://www.youtube.com/embed/WsUiAgRqox8?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" 
-    allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
+    <div class="embed-youtube" style="text-align:center; display: block;">
+    <iframe loading="lazy" class="youtube-player"; src="https://www.youtube.com/embed/WsUiAgRqox8?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" 
+    allowfullscreen="true" style="border:0; width: 100%; height: 80vh" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
     </iframe>
-    </span>
     </div>
     `)
    
    incluir_seccion_hijo("acceso_busqueda_avanzada_tema","Acceso al texto completo con búsqueda avanzada por tema","tutoriales");
     actualizar_parrafo("acceso_busqueda_avanzada_tema",`
     <p>Video de tutorial de la pagina oficial de la Biblioteca FFyH </p>
-    <div>
-    <span class="embed-youtube" style="text-align:center; display: block;">
-    <iframe loading="lazy" class="youtube-player" width: 100%; height: 100%; src="https://www.youtube.com/embed/t_V5LH1ltSs?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" 
-    allowfullscreen="true" style="border:0;" 
-    sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
-    </iframe>
-    </span>
-    </div>
+    <div class="embed-youtube" style="text-align:center; display: block;">
+    <iframe loading="lazy" class="youtube-player"; 
+
+    src="https://www.youtube.com/embed/t_V5LH1ltSs?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=es-ES&#038;autohide=2&#038;wmode=transparent" 
     
+    allowfullscreen="true" style="border:0; width: 100%; height: 80vh" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
+    </iframe>
+    </div>
     `)    
     incluir_seccion_hijo("acceso_busqueda_banco_tesis_psicologia","Busqueda en Banco de tesis de Psicologia.","tutoriales")
     actualizar_parrafo("acceso_busqueda_banco_tesis_psicologia",`
+
     <p>Video de tutorial de la pagina oficial de la Biblioteca FFyH </p>
-    <div>
-    <span class="embed-youtube" style="text-align:center; display: block;">
-    <iframe loading="lazy" width: 100%; height: 100%;
-    src="./pages/biblioteca/documentos/Tutorial-Banco-de-Tesis-Digital Facultad-de-Psicología-UNC.mp4" 
-    allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
-    </iframe></span>
+    <div class="embed-youtube" style="text-align:center; display: block;">
+    <iframe loading="lazy" class="youtube-player"; 
+    src="./pages/biblioteca/documentos/Tutorial-Banco-de-Tesis-Digital-Facultad-de-Psicología-UNC.mp4"
+    allowfullscreen="true" style="border:0; width: 100%; height: 80vh" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation">
+    </iframe>
     </div>
     `)
-
     incluir_funcion_botones();
 }
