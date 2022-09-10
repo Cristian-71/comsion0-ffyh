@@ -197,7 +197,9 @@ function incluir_funcion_botones() {
     document.getElementById("presentacion_tesis_repositorio_digital_bt").onclick = function () {
         show_text_hijo("presentacion_tesis_repositorio_digital");
     }
-   
+    document.getElementById("prestamos_domicilio_bt").onclick = function () {
+        show_text_hijo("prestamos_domicilio");
+    }
 
 
     document.getElementById("boton_menu_smartphone").onclick = function () {
@@ -312,8 +314,7 @@ function carga_inicial() {
     <p>Con fin de cumplir la ley se instauró la Oficina de Conocimiento Abierto que, en nuestra Universidad es la encargada de gestionar el Repositorio Institucional Digital de la UNC (RDU), y también tiene la función de coordinar la actuación de las Bibliotecas Universitarias, designadas como nodos responsables de incorporar la producción intelectual de las Facultades al mencionado RDU.</p>
     <p>Usted se preguntará, <strong>¿Qué es un repositorio digital?</strong></p>
     <p>Un repositorio es un espacio virtual en el cual se suben archivos , imágenes y documentos para tener su acceso en cualquier sitio en el cual te encuentres. Existen repositorios de dominio público y privado.</p>
-    <p>En los privados necesitas tener acceso al mismo por un nombre de usuario y una clave para poder acceder a los archivos subidos, en este caso es necesario registrarse.
-    Las nubes vinculadas a correos electrónicos, podrían ser un ejemplo de estos de repositorios como los son: Google Drive, Dropbox, Onedrive de Outlook, etc; porque cumplen con algunas características que tienen los repositorios.</p>
+    <p>En los privados necesitas tener acceso al mismo por un nombre de usuario y una clave para poder acceder a los archivos subidos, en este caso es necesario registrarse. Las nubes vinculadas a correos electrónicos, podrían ser un ejemplo de estos de repositorios como los son: Google Drive, Dropbox, Onedrive de Outlook, etc; porque cumplen con algunas características que tienen los repositorios.</p>
     <p>Los repositorios públicos no es necesario registrarse aunque en algunos casos si, los archivos e información se encuentran a disposición de quien tenga el dispositivo adecuado para acceder. Los entes gubernamentales e instituciones bajo la órbita del estado poseen repositorios públicos porque se encuentran amparados bajo la ley del acceso público a la información de los gobiernos y sus instituciones.</p> 
     <ul>
     <li> <strong>Ley Nº 26.899</strong> de Creacion de Repositorios Digitales Institucionales de Acceso Abierto.</li>
@@ -321,6 +322,8 @@ function carga_inicial() {
     <li> <strong>Ley Nacional 22.275</strong> de Acceso a la Informacion Publica.</li>
     <li> <strong>Decreto 117/2016:</strong> Plan de apertura de datos. </li>
     </ul>
+    <p>Repositorio Digital de la UNC: <a href="https://rdu.unc.edu.ar/">https://rdu.unc.edu.ar/</a></p>
+    <p>Programa Arqueologia Digital. Museo de Antropologia IDACOR-CONICET. Repositorio Digital Suquia: <a href="https://suquia.ffyh.unc.edu.ar/">https://suquia.ffyh.unc.edu.ar/</a></p>
     <p>Hay legislaciones a nivel internacional que ampara la existencia de repositorios abiertos al público.</p>
     <p>Entre las instituciones públicas que tienen repositorios de dominios  públicos,  las universidades nacionales, museos bajo nacional, archivos documentales provinciales y nacionales, bibliotecas, repositorios del Archivo Nacional de Argentina, bibliotecas y otras organizaciones, sitios web como Github.</p>
 
@@ -392,6 +395,73 @@ function carga_inicial() {
     <p>Para dirigirse al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
     );
+    incluir_seccion_hijo("prestamos_domicilio","Prestamos","instructivos_guias_varios")
+    actualizar_parrafo("prestamos_domicilio",`
+    Préstamos
+    
+    <p><span style="color: #ff00ff"><strong> PRÉSTAMOS A DOMICILIO:</strong><span></p>
+   
+    
+        <strong>¿Quienes pueden realizar prestamos a domicilio?</strong></p>
+        
+    INSCRIPCIONES
+    3- Podrán inscribirse para hacer uso de préstamos de material bibliográfico: personal docente, investigadores, no docentes, egresados, alumnos de grado, postgrado, vocacionales e intercampus, de la Facultad de Filosofía y Humanidades y de la Facultad de Psicología. Y docentes con cargo, investigadores y no docentes de otras Facultades de la UNC.
+    4- Para inscribirse se requiere:
 
+    Docentes y/o investigadores: estar incluidos en el registro de personal de la Facultad, presentar en Biblioteca Resolución del cargo actualizada y documento de identidad. Duración de la inscripción: 1 año calendario
+    No docentes: estar incluidos en el registro de personal de la Facultad, presentar certificado del área Personal que acredite su cargo y documento de identidad. Duración de la inscripción 1 año calendario
+    Egresados:cumplimentar los requisitos establecidos en la solicitud entregada por la misma biblioteca, DNI y pago de la cuota anual. Duración de la inscripción: 1 año calendario
+    Alumnos:presentar LTP con inscripción académica correspondiente al año lectivo en curso. Duración de la inscripción: 1 año académico
+    Postgrado:Doctorados y Maestrías: Resolución donde figura que fue aceptado a dicho Doctorado o  comprobantes de pago de inscripción y DNI.Duración de la inscripción: 1 año académico
+    Alumnos Vocacionales:se los inscribe con LTP y por el año en curso.Duración de la inscripción: hasta el 31 de diciembre
+    Alumnos intercampus: se los inscribe presentando carnet intercampus y Pasaporte. Duración de la inscripción: solo por el período que permanezca en las  Facultades.
+    Docentes y/o investigadores de otras Facultades:estar incluidos en el registro de personal de la Facultad a la que pertenecen, presentar en biblioteca  Resolución del cargo de la Facultad respectiva, donde figure la duración del proyecto, DNI y abonar la cuota. Duración inscripción 1 año calendario
+    5- Los/as usuarios/as, deberán reinscribirse todos los años, en la fecha estipulada y actualizar los datos personales: domicilio, teléfono, correo electrónico, etc., para lo cual deberán presentarse en biblioteca.
+
+    PRÉSTAMOS A DOMICILIO
+    6- Es requisito indispensable estar inscripto en biblioteca, para gozar de préstamos de material bibliográfico a domicilio.
+    7- Los préstamos son personales debiendo presentar, Libreta de Trabajos Prácticos o Documento de Identidad o Cédula, sin excepción, siendo el material facilitado de absoluta responsabilidad de quien lo retira.
+
+    8- Las devoluciones no son personales y pueden ser realizadas por terceros.
+
+    9- Los/las docentes, investigadores/as, tesistas, maestrandos/as y doctorandos/as podrán retirar hasta cuatro (4) libros y cuatro (4) revistas. Los/las alumnos/as, ayudantes-alumnos/as, egresados/as y no-docentes podrán retirar hasta tres (3) libros y tres (3) revistas. Dichos préstamos se efectuarán por el término de siete(7) días corridos, con excepción de los ‘préstamos restringidos’ de dos (2) días. Un/a mismo/a usuario/a no podrá retirar dos ejemplares iguales.
+
+    10- Dentro del acervo bibliográfico se distinguen las siguientes categorías:
+
+    1) material para préstamos en sala, a domicilio e interbibliotecario :
+
+    bibliografía de todas las secciones, salvo las excepciones contempladas en el apartado (2)
+    bibliografía incluida en la modalidad Estantería Abierta que además se puede consultar sin presentación del DNI.
+    bibliografía seleccionada por las distintas cátedras que podrán consultarse en sala de lunes a viernes y estará disponible para el préstamo a domicilio y/o interbibliotecario, los viernes a partir de las 17:00 hs. hasta el lunes siguiente antes de las 11:00 hs.
+    Material audiovisual: método Linguaphone de inglés, francés, griego y latín el cual se prestará por el término de quince (15) días.
+    2) Material bibliográfico disponible sólo para consulta en sala de lectura :
+
+    obras de referencia: enciclopedias, diccionarios, guías, mapas, etc.
+    libros de Valor Especial: ediciones agotadas, antiguas, libros ilustrados y de lujo, libros anteriores a1930 (Fondo Antiguo), códices, obras que integran el fondo documental de la bibliotca “Monseñor Pablo Cabrera”, etc.
+
+
+
+    <ul>
+    <li>Son personales y todos los usuarios deben presentar su DNI:</li>
+    <li>Libreta de TP y/o Pasaporte en el caso de usuarios extranjeros.</li>
+    </ul>
+    
+    
+    
+    <p>Ver Reglamento de la biblioteca: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a>
+    <p><span style="color: #ff00ff"><strong> PRÉSTAMOS INTERBIBLIOTECARIOS:</strong><span></p>
+   
+    
+    <ul>
+    <li><strong>UNC:</strong> Todos los socios pueden beneficiarse con este sistema y solicitar materiales no disponibles en esta biblioteca a otras bibliotecas de la UNC.</li>
+    <li><strong>ABUC:</strong> Todos los socios pueden solicitar en préstamo material disponibles en bibliotecas de otras universidades de la provincia de Córdoba través de ABUC – Acuerdo de Bibliotecas Universitarias de Córdoba – abriendo un importante abanico de posibilidades en cuanto a la cooperación e intercambio de bibliografía.</li>
+    
+    </ul>
+    
+    <p>Visite el Sitio Oficial de ABUC: <a href="https://abuc.org.ar/portal/">https://abuc.org.ar/portal/</a></p>
+    
+   
+    <p>Reglamento Biblioteca de FFyH - Psicologia: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a>
+    `)
     incluir_funcion_botones();
 }
