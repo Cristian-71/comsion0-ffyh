@@ -160,9 +160,17 @@ function incluir_funcion_botones(){
     document.getElementById("ingreso_bt").onclick = function() {
         show_text_padre("ingreso");
     }
+    
     document.getElementById("pregunta_ingreso_bt").onclick = function() {
         show_text_hijo("pregunta_ingreso");
     }
+    document.getElementById("documentos_necesarios_inscribirse_bt").onclick = function() {
+        show_text_hijo("documentos_necesarios_inscribirse");
+    }
+    document.getElementById("tips_sacar_fotos_bt").onclick = function() {
+        show_text_hijo("tips_sacar_fotos");
+    }
+    
     document.getElementById("pregunta_ingresantes_extranjeros_bt").onclick = function() {
         show_text_hijo("pregunta_ingresantes_extranjeros");
     }
@@ -226,6 +234,9 @@ function incluir_funcion_botones(){
     document.getElementById("cond_cursado_bt").onclick = function() {
         show_text_hijo("cond_cursado");
     }
+    document.getElementById("tips_sacar_foto_bt").onclick = function() {
+        show_text_hijo("tips_sacar_foto");
+    }
     
 
 
@@ -252,12 +263,28 @@ function carga_inicial(){
 
     incluir_seccion_padre("ingreso", "SOBRE EL INGRESO");
 
-    incluir_seccion_hijo("pregunta_ingreso", "¿Como me inscribo?","ingreso");
+    incluir_seccion_hijo("pregunta_ingreso","¿Como me inscribo?","ingreso");
     actualizar_parrafo("pregunta_ingreso",`
     <p>Todo el proceso de inscripción se realizará de manera virtual. <a href="https://blogs.ffyh.unc.edu.ar/ingreso" target="_blank" rel="noopener">Aqui encontras un instructivo</a><br/></p> `);
+   
+    incluir_seccion_hijo("documentos_necesarios_inscribirse","¿Qué documentación necesito para iniciar el trámite?","ingreso")
+    actualizar_parrafo("documentos_necesarios_inscribirse",`
+    <p>Documentos necesarios:</p>
+    
+    <ul>
+    <li style="text-align: left;" aria-level="1"><span style="color: #003366;"><strong>DNI</strong></span>: (frente y dorso)</li>
+    <li style="text-align: left;" aria-level="1"><span style="color: #003366;"><strong>Constancia de Título</strong></span> en trámite <strong>con la leyenda</strong> si “adeuda o no adeudas materias”, <b>ó</b> <span style="color: #003366;"><strong>Certificado Analítico de Estudio Secundario finalizado</strong></span> (frente y dorso).</li>
+    <li style="text-align: left;" aria-level="1"><strong><span style="color: #003366;">Foto tipo carnet</span> </strong>4&#215;4 actualizada</li>
+    </ul>`) 
+    incluir_seccion_hijo("tips_sacar_fotos","¿Como sacar fotos desde un celular a documentos (para hacer tramites), ó tareas (para subir y enviar por mail)?","ingreso")
+    actualizar_parrafo("tips_sacar_fotos",`
+    <p><span style="color: #ff00ff"><strong>Tips para fotografiar tareas o documentacion</span></p>
+    <img src="./pages/preguntas/imagenes/Infografia-de-digitalizacion.jpeg" alt="Tips sacar foto al documento" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;">
+    `)
     incluir_seccion_hijo("pregunta_ingresantes_extranjeros","¿Cuál es el procedimiento si soy estudiante extranjero/a?" ,"ingreso")
     actualizar_parrafo("pregunta_ingresantes_extranjeros",`
-    <p><a href="http://blogs.ffyh.unc.edu.ar/ingreso/2021/10/12/estudiantes-extranjeros-y-extranjeras/ target="_blank" rel="noopener""><strong>Aqui podras consultar</strong></a> las particularidades para estudiantes extranjeros y extranjeras</p>    `)
+    <p><a href="https://blogs.ffyh.unc.edu.ar/ingreso/2021/10/12/estudiantes-extranjeros-y-extranjeras/" target="_blank" rel="noopener"><strong>Aqui podras consultar</strong></a> las particularidades para estudiantes extranjeros y extranjeras</p>    
+    `)
 
     incluir_seccion_hijo("sec_incompleta", "Adeudo materias ¿me puedo inscribir?", "ingreso");
     actualizar_parrafo("sec_incompleta", `
@@ -335,7 +362,7 @@ function carga_inicial(){
     <li>NOMBRE Y APELLIDO</li>
     <li>NUMERO DOCUMENTO</li>
     <li>CARRERA A LA QUE PERTENECE</li>
-</ul>
+    </ul>
     <p>Es necesario describir con detalles, la explicación del problema, especificar trámite que desea realizar, pasos qué realizó, error que menciona el sistema Guarani; y copiar exactamente la leyenda que aparece en cartel, en el cuerpo del mail.</p>
     <p>Por ultimo, es importante ser paciente, en la espera de una respuesta.</p>
     
@@ -362,12 +389,12 @@ function carga_inicial(){
     <p>Todos los años deberás reinscribirte (vía Guaraní) para poder realizar cualquier actividad académica (cursar materias, rendir regular o libre, etc.). Consultar las fechas de matriculación anual en el Calendario Académico.</p>
     <p><span style="color: #ff00ff"><strong>INSCRIPCIÓN A CURSADAS:</strong></span></p>
 
-<p>Una vez que hayas realizado la matriculación anual, podrás inscribirte en las materias que quieras cursar seleccionando la comisión correspondiente (se recomienda consultar previamente los horarios y días de cursado para elegir la opción conveniente).</p>
-<p><span style="color: #ff00ff"><strong>EXTRAVÍO O DETERIORO DE LIBRETAS:</strong></span></p>
-<p>Si perdiste o se deterioró tu libreta de trabajos prácticos, debés hacer un duplicado. Para ello, deberás realizar una exposición policial por el extravío y traer el comprobante, comprar una libreta nueva en el centro comercial de Ciencias Económicas. El trámite se realiza en Despacho de Alumnos los días y horarios de atención.</p>
-<p><span style="color: #ff00ff"><strong>PROBLEMAS O CONSULTAS SOBRE EL SISTEMA GUARANÍ:</strong></span></p>
-<p>Podés comunicarte con <a href="https://blogs.ffyh.unc.edu.ar/casaVerde/horario-de-atencion/" target="_blank" rel="noopener noreferrer"><strong>Despacho de Alumnos</strong></a> en los días y horarios de atención o vía e-mail a: <a href="mailto:despachocasaverde@ffyh.unc.edu.ar">despachocasaverde@ffyh.unc.edu.ar</a></p>
-<p><span style="color: #ff00ff"><strong>PROBLEMAS O CONSULTAS SOBRE EL AULA VIRTUAL:</strong></span></p>
+    <p>Una vez que hayas realizado la matriculación anual, podrás inscribirte en las materias que quieras cursar seleccionando la comisión correspondiente (se recomienda consultar previamente los horarios y días de cursado para elegir la opción conveniente).</p>
+    <p><span style="color: #ff00ff"><strong>EXTRAVÍO O DETERIORO DE LIBRETAS:</strong></span></p>
+    <p>Si perdiste o se deterioró tu libreta de trabajos prácticos, debés hacer un duplicado. Para ello, deberás realizar una exposición policial por el extravío y traer el comprobante, comprar una libreta nueva en el centro comercial de Ciencias Económicas. El trámite se realiza en Despacho de Alumnos los días y horarios de atención.</p>
+    <p><span style="color: #ff00ff"><strong>PROBLEMAS O CONSULTAS SOBRE EL SISTEMA GUARANÍ:</strong></span></p>
+    <p>Podés comunicarte con <a href="https://blogs.ffyh.unc.edu.ar/casaVerde/horario-de-atencion/" target="_blank" rel="noopener noreferrer"><strong>Despacho de Alumnos</strong></a> en los días y horarios de atención o vía e-mail a: <a href="mailto:despachocasaverde@ffyh.unc.edu.ar">despachocasaverde@ffyh.unc.edu.ar</a></p>
+    <p><span style="color: #ff00ff"><strong>PROBLEMAS O CONSULTAS SOBRE EL AULA VIRTUAL:</strong></span></p>
     <p>Podés comunicarte al siguiente mail: <a href="mailto:despachocasaverde@ffyh.unc.edu.ar">despachocasaverde@ffyh.unc.edu.ar</a></p>
     Ademas podes seguir el siguiente instructivo que se encuentra descripto en la pregunta: <span style="color: #FF0000"><strong><i>¿Que es Despacho de Alumno y Oficilia? ¿Como solicitar hacer un tramite?</i></strong></span></p>
     `)
@@ -393,31 +420,31 @@ function carga_inicial(){
    incluir_seccion_hijo("becas", " ¿Cursar en la FFyH tiene algún costo?¿Existen becas? ", "cursado");
    actualizar_parrafo("becas", `
    <p>Sostenemos el derecho a una educación gratuita, laica y de calidad. Por ello, nuestras carreras no tienen costo. Además, para acompañarte en tu acceso a la Educación Superior existen diferentes políticas de ayuda económica u orientadas a disminuir el gasto en apuntes, comida, transporte, etc.</p>
-<p>Se trata de políticas impulsadas por diferentes organismos y en consecuencia difieren en requisitos y en sus períodos de convocatoria. A toda la información de cada convocatoria podés encontrarla en <a href="https://ffyh.unc.edu.ar/sae/">https://ffyh.unc.edu.ar/sae/</a> en la solapa <b>becas</b>. </p>
-<p><strong>Estas son:</strong></p>
-<ul>
-<li><b>Beca PROGRESAR: </b>Son becas económicas destinadas a ingresantes de entre 18 y 24 años, aunque sin límite de edad para personas que pertenezcan a algún grupo de vulnerabilidad. A la inscripción debés realizarla de manera totalmente online, durante el período en que se encuentra abierta: generalmente el mes de febrero, y a partir de 2021, hay una segunda convocatoria al inicio del 2do semestre de cursado. Debés cumplir requisitos económicos que se certificarán a partir de la base del ANSES, y académicos, una vez que avances en la cursada.</li>
-<li><b>Beca Manuel Belgrano</b>: Para estudiantes de la carrera de Geografía, se trata de una beca estímulo a carreras de carácter estratégico, de características similares a la PROGRESAR pero de monto mensual más alto.</li>
-<li><b>Becas de ingresantes: </b>Es una beca económica sin límite de edad cuya inscripción se tramita de manera online y luego se complementa en una entrevista. Se solicita en la primera quincena de octubre. Luego de ingresar a la Universidad podés continuar percibiendo una beca similar solicitando la <b>beca de fondo único</b>. Podés inscribirte aquí: <a href="https://www.unc.edu.ar/vida-estudiantil/becas-ingresantes-unc-2021">https://www.unc.edu.ar/vida-estudiantil</a> </li>
-</ul>
-<p> </p>
-<p><span style="color: #003d99"><strong>A partir de los meses de marzo/abril podés acceder a las siguientes herramientas:</strong></span></p>
-<ul>
-<li><b>Beca de conectividad:</b> Mientras se sostenga el cursado virtual, podés solicitar esta beca en caso de que no cuentes con wifi en tu hogar. Obtendrás una cantidad de datos mensuales para navegar desde tu celular.</li>
-<li><b>Beca de comedor: </b>Mientras el Comedor Universitario permanezca cerrado, esta beca se llama Nutrirse y consiste en módulos de alimentos para que puedas llevar a tu domicilio.</li>
-</ul>
-<ul>
-<li><b>Punto SAE Conecta: </b>A partir de que ingreses a la Universidad, cada vez que necesites utilizar una pc con acceso a internet, podés acercarte al punto SAE Conecta en ciudad universitaria. Debés reservar turnos de manera online.</li>
-</ul>
-<ul>
-<li><b>Beca de la SAE de la FFyH: </b>Beca de apuntes: Esta beca tiene como objetivo entregar los apuntes de una o más materias a las y los estudiantes que tengan dificultades para comprarlos. La inscripción se realiza online, y asigna grupos de prioridad.
-<p>Para el caso de los apuntes del Curso de Nivelación, esta beca se le otorga a las personas que tienen <b>beca de ingresantes</b>.</p>
-</li>
-</ul>
-<p><b></b></p>
-<ul>
-<li><b> Boleto Educativo Gratuito: </b>Cuando retornemos a la actividad presencial de carreras de grado, podrás volver a obtener el Boleto Educativo Gratuito, a partir del inicio del primer semestre (marzo).</li>
-</ul>
+    <p>Se trata de políticas impulsadas por diferentes organismos y en consecuencia difieren en requisitos y en sus períodos de convocatoria. A toda la información de cada convocatoria podés encontrarla en <a href="https://ffyh.unc.edu.ar/sae/">https://ffyh.unc.edu.ar/sae/</a> en la solapa <b>becas</b>. </p>
+    <p><strong>Estas son:</strong></p>
+    <ul>
+    <li><b>Beca PROGRESAR: </b>Son becas económicas destinadas a ingresantes de entre 18 y 24 años, aunque sin límite de edad para personas que pertenezcan a algún grupo de vulnerabilidad. A la inscripción debés realizarla de manera totalmente online, durante el período en que se encuentra abierta: generalmente el mes de febrero, y a partir de 2021, hay una segunda convocatoria al inicio del 2do semestre de cursado. Debés cumplir requisitos económicos que se certificarán a partir de la base del ANSES, y académicos, una vez que avances en la cursada.</li>
+    <li><b>Beca Manuel Belgrano</b>: Para estudiantes de la carrera de Geografía, se trata de una beca estímulo a carreras de carácter estratégico, de características similares a la PROGRESAR pero de monto mensual más alto.</li>
+    <li><b>Becas de ingresantes: </b>Es una beca económica sin límite de edad cuya inscripción se tramita de manera online y luego se complementa en una entrevista. Se solicita en la primera quincena de octubre. Luego de ingresar a la Universidad podés continuar percibiendo una beca similar solicitando la <b>beca de fondo único</b>. Podés inscribirte aquí: <a href="https://www.unc.edu.ar/vida-estudiantil/becas-ingresantes-unc-2021">https://www.unc.edu.ar/vida-estudiantil</a> </li>
+    </ul>
+    <p> </p>
+    <p><span style="color: #003d99"><strong>A partir de los meses de marzo/abril podés acceder a las siguientes herramientas:</strong></span></p>
+    <ul>
+    <li><b>Beca de conectividad:</b> Mientras se sostenga el cursado virtual, podés solicitar esta beca en caso de que no cuentes con wifi en tu hogar. Obtendrás una cantidad de datos mensuales para navegar desde tu celular.</li>
+    <li><b>Beca de comedor: </b>Mientras el Comedor Universitario permanezca cerrado, esta beca se llama Nutrirse y consiste en módulos de alimentos para que puedas llevar a tu domicilio.</li>
+    </ul>
+    <ul>
+    <li><b>Punto SAE Conecta: </b>A partir de que ingreses a la Universidad, cada vez que necesites utilizar una pc con acceso a internet, podés acercarte al punto SAE Conecta en ciudad universitaria. Debés reservar turnos de manera online.</li>
+    </ul>
+    <ul>
+    <li><b>Beca de la SAE de la FFyH: </b>Beca de apuntes: Esta beca tiene como objetivo entregar los apuntes de una o más materias a las y los estudiantes que tengan dificultades para comprarlos. La inscripción se realiza online, y asigna grupos de prioridad.
+    <p>Para el caso de los apuntes del Curso de Nivelación, esta beca se le otorga a las personas que tienen <b>beca de ingresantes</b>.</p>
+    </li>
+    </ul>
+    <p><b></b></p>
+    <ul>
+    <li><b> Boleto Educativo Gratuito: </b>Cuando retornemos a la actividad presencial de carreras de grado, podrás volver a obtener el Boleto Educativo Gratuito, a partir del inicio del primer semestre (marzo).</li>
+    </ul>
    `);
 
 
@@ -434,8 +461,11 @@ function carga_inicial(){
    <li>Quedar Libre:<br> El alumno que habiendo cursado la materia no aprobó ningun parcial(virtual o presencial según sea el caso) o no cumple con las condiciones de regularidad.</li>
     </ul>
    `);
-
-
+   incluir_seccion_hijo("tips_sacar_foto","¿Como sacar fotos desde un celular a documentos (para hacer tramites), ó tareas (para subir y enviar por mail)?","cursado")
+   actualizar_parrafo("tips_sacar_foto",`
+   <p><span style="color: #ff00ff"><strong>Tips para fotografiar tareas o documentacion</span></p>
+   <img src="./pages/preguntas/imagenes/Infografia-de-digitalizacion.jpeg" alt="Tips sacar foto al documento" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;">
+   `)
 
     incluir_funcion_botones();
 }
