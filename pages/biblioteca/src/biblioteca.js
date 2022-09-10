@@ -200,6 +200,10 @@ function incluir_funcion_botones() {
     document.getElementById("prestamos_domicilio_bt").onclick = function () {
         show_text_hijo("prestamos_domicilio");
     }
+    document.getElementById("procedimientos_documentos_digitalizados_bt").onclick = function () {
+        show_text_hijo("procedimientos_documentos_digitalizados");
+    }
+ 
 
 
     document.getElementById("boton_menu_smartphone").onclick = function () {
@@ -392,9 +396,10 @@ function carga_inicial() {
     <p><strong><i>Hay algunos detalles, informacion, archivos de la resolucion aprobada por la universidad, documentaciones oficiales, que quedaron fuera. Les recomendio visitar la Pagina Presentacion de trabajos finales al Repostorio Digital Universal, para acceder a la informacion que no se encuentra presente en este texto.</i></strong></p>
 
     <br><p><strong>Fuente:</strong> Pagina de la Presentacion de trabajos finales al Repostorio Digital Universal.</p>
-    <p>Para dirigirse al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
+    <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
     );
+
     incluir_seccion_hijo("prestamos_domicilio","Prestamos","instructivos_guias_varios")
     actualizar_parrafo("prestamos_domicilio",`
     <br>
@@ -524,19 +529,26 @@ function carga_inicial() {
     <li>obras que integran el fondo documental de la bibliotca “Monseñor Pablo Cabrera”</li>
     <li>y otros materriales del acervo bibliográfico</li>
     </ul>
-
-
+    <br>
+    <p><span style="color: #ff00ff"><strong> DEVOLUCIONES:</strong><span></p>
     <ul>
-    <li>Son personales y todos los usuarios deben presentar su DNI:</li>
-    <li>Libreta de TP y/o Pasaporte en el caso de usuarios extranjeros.</li>
+    <li>Los/as usuarios/as deberán devolver el material bibliográfico en las fechas o plazos estipulados por la Biblioteca, en caso de demora serán pasibles de las sanciones correspondientes y previstas en el art.15 del presente reglamento.</li>
+    <li>Los libros devueltos en el día, se prestarán nuevamente a partir del día siguiente, con excepción de los días viernes, en que podrán volver a prestarse a partir de la apertura de la biblioteca.</li>
+    <li>El/la mismo/a usuario/a no podrá retirar más de dos veces consecutivas el mismo libro.</li>
     </ul>
-    
-    
+    <br>
     <p><strong><i>Texto modificado del original, con la intencion acercar informacion y que la lectura sea mas entendible. Fuente: Reglamento de la biblioteca.</i></strong></p>
     <p>Para mas informacion y confiable.<strong> Lea el Reglamento de la biblioteca: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a></strong></p>
     <br>
     
-    <p><span style="color: #ff00ff"><strong> PRÉSTAMOS INTERBIBLIOTECARIOS:</strong><span></p>
+    <p><span style="color: #ff00ff"><strong> PRÉSTAMOS INTERBIBLIOTECARIOS</strong><span></p>
+    
+    <p>Los prestamos son personales y todos los usuarios deberan presentar:</p>
+    <ul>
+    <li>su DNI y Libreta de Trabajos Practicos.</li>
+    <li>su DNI, Libreta de Trabajos Practicos y/o  Pasaporte en el caso de ser usuarios extranjeros.</li>
+    </ul>
+    <p>Prestamos Interbibliotecarios:</p>
     <ul>
     <li><strong>UNC:</strong> Todos los socios pueden beneficiarse con este sistema y solicitar materiales no disponibles en esta biblioteca a otras bibliotecas de la UNC.</li>
     <li><strong>ABUC:</strong> Todos los socios pueden solicitar en préstamo material disponibles en bibliotecas de otras universidades de la provincia de Córdoba través de ABUC (Acuerdo de Bibliotecas Universitarias de Córdoba), abriendo un importante abanico de posibilidades en cuanto a la cooperación e intercambio de bibliografía.</li>
@@ -549,6 +561,81 @@ function carga_inicial() {
    
     <p>Reglamento Biblioteca de FFyH - Psicologia: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a>
     `)
+
+
+    incluir_seccion_hijo("procedimientos_documentos_digitalizados","Procedimientos para la consulta de documentos digitalizados","instructivos_guias_varios")
+    actualizar_parrafo("procedimientos_documentos_digitalizados",`
+    <br>
+    <p><strong>¿Cuales son los Procedimientos para la consulta de documentos digitalizados?</strong></p>
+    <br>
+    <p><strong>En principio es Enviar el listado con los números de documentos (signatura archivística):</strong></p>
+    <ul>
+    <li>Completar formulario web </li>
+    <li>Formulario en papel (a completar in situ).</li>
+
+    <li>Correo electrónico a las direcciones:
+    <ol>
+    <li><a href="mailto:sfois@ffyh.unc.edu.ar">sfois@ffyh.unc.edu.ar</a></li>
+    <li><a href="mailto:javiergonzalez@ffyh.unc.edu.ar">javiergonzalez@ffyh.unc.edu.ar</a></li>
+    </ol>
+    </li>
+    </ul>
+    <br>
+    <p><strong>¿Cuales son los números de documentos (signatura archivística)?</strong></p>
+    <p>Un numero de documento, es un numero que tiene un archivo, es un numero unico, como codigo barra, que se lo puede identificar.</p>
+    <p>Es un numero que identifica un item dentro de una coleccion o reservorio bibliografico, que se utiliza en la archivistica.
+    Para conocer el numero, es necesario hacer una busqueda en el catologo online de la Biblioteca
+    para poder encontrar las siglas que identifica: la sala o el espacio en el cual se encuentra guardado.</p>
     
+    <br>
+   
+   
+
+    
+    
+    <br>
+    <p><strong>Compromiso de parte del usuario, citar el documento.</strong></p>
+    <p>Esto siginifica que el paper producido por su investigacion, en base a la informacion del documento/archivo/libro/publicacion, prestado por la biblioteca, tiene ó deberia ser citado por parte del investigador en donde consiguio el documento o informacion.</p>
+    <p><strong><i>Departamento de Estudios Americanistas y Antropologia. Biblioteca Facultad de Filosofia y Humanidades. Universidad Nacional de Córdoba</i></strong></p>
+
+    
+    <p>Ejemplo de cita:</p>
+    <p><i>Documento 11256. Colección Documental Monseñor Pablo Cabrera. Departamento de Estudios Americanistas y Antropología. Biblioteca Facultad de Filosofía y Humanidades - Facultad de Psicología. Universidad Nacional de Córdoba.</i></p>
+ 
+   <br>
+   <p>El catálogo de la Colección documental debe ser citado de la siguiente manera:</p>
+    <p><i>Benito Moya, S. G. A. (2002). Catálogo Documental «Mons. Dr. Pablo Cabrera». Córdoba, Argentina : Facultad de Filosofía y Humanidades, Universidad Nacional de Córdoba.</i></p>
+    <br>
+
+    <p><strong>Consignar los siguientes datos:</strong></p>
+    <br>
+    <p>Agregar o completar los siguientes campos, pestañas segun corresponda:</p>
+
+    <ul>
+    <li>Signatura archivística del documento </li>
+    <li>Nombre y apellido </li>
+    <li>Institución de pertenencia </li>
+    <li>Proyecto: Título y radicación</li>
+    <li>Director del proyecto </li>
+    <li>Dirección de Correo electrónico </li>
+    <li>Teléfono </li>
+    </ul>
+    <br>
+    <img src="./pages/biblioteca/imagenes/imagen-agregar-campos.png" alt="Captura de pantalla, pagina de Consultar documentos digitalizados, seccion completar campos" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;">
+
+    <br>
+    <p>Agregar o subir archivos/documentos en las siguientes input, pestañas:</p>
+    <ul>
+    <li>Archivo adjunto: Nota del director o resumen de proyecto </li>
+    <li>Archivo adjunto: Listado de documentos a consultar </li>
+    </ul>
+    <br>
+    <img src="./pages/biblioteca/imagenes/imagen-adjuntar-archivos.png" alt="Captura de pantalla, pagina de Consultar documentos digitalizados, seccion adjuntar archivos" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;">
+    <br>
+    <br>
+    <p><strong>Fuente:</strong> Pagina de la Procedimientos para la consulta de documentos digitalizados.</p>
+    <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/procedimientos-para-la-consulta-de-documentos-digitalizados/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/procedimientos-para-la-consulta-de-documentos-digitalizados/</strong></a></p>
+
+    `)
     incluir_funcion_botones();
 }
