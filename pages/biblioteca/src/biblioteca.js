@@ -397,48 +397,133 @@ function carga_inicial() {
     );
     incluir_seccion_hijo("prestamos_domicilio","Prestamos","instructivos_guias_varios")
     actualizar_parrafo("prestamos_domicilio",`
-    Préstamos
-    
+    <br>
     <p><span style="color: #ff00ff"><strong> PRÉSTAMOS A DOMICILIO:</strong><span></p>
-   
+    <br>
+    <p><span style="color: #ff00ff"><strong>INSCRIPCIONES</strong><span></p>
     
-        <strong>¿Quienes pueden realizar prestamos a domicilio?</strong></p>
+    
+    <p><strong>¿Quienes pueden realizar prestamos a domicilio?</strong></p>
+    <p>Las personas que pueden solicitar prestamos a la biblioteca, son aquellas que se encuentren inscriptas en el registro de la biblioteca.</p>
         
-    INSCRIPCIONES
-    3- Podrán inscribirse para hacer uso de préstamos de material bibliográfico: personal docente, investigadores, no docentes, egresados, alumnos de grado, postgrado, vocacionales e intercampus, de la Facultad de Filosofía y Humanidades y de la Facultad de Psicología. Y docentes con cargo, investigadores y no docentes de otras Facultades de la UNC.
-    4- Para inscribirse se requiere:
+    <p><strong>¿Quienes podrán inscribirse para hacer uso de préstamos de material bibliográfico?</strong></p>
+    <p>Las personas que podrán inscribirse pueden ser:</p>
+    <ul>
+    <li>personal docente</li>
+    <li>investigadores</li>
+    <li>no docentes</li>
+    <li>iegresados</li>
+    <li>personal docente</li>
+    <li>alumnos de grado</li>
+    <li>postgrado</li>
+    <li>vocacionales de la Facultad de Filosofía y Humanidades y de la Facultad de Psicología</li>
+    <li>intercampus de la Facultad de Filosofía y Humanidades y de la Facultad de Psicología</li>
+    <li>vocacionales</li>
+    <li>postgrado</li>
+    <li>docentes con cargo de otras Facultades de la UNC</li>
+    <li>investigadores de otras Facultades de la UNC</li>
+    <li>no docentes de otras Facultades de la UNC</li>
+    </ul>
+    
+    <p><strong>¿Cuales son los requisitos que se necesita para inscribirse?</strong></p>
+     
+    <ul>
+    <li><strong>Docentes y/o investigadores:</strong> deberan estar incluidos
+     en el registro de personal de la Facultad, y  deberan 
+    presentar en la Biblioteca, la Resolución del cargo actualizada y 
+    documento de identidad. La Duración de 
+    la inscripción es 1 año calendario.</li>
 
-    Docentes y/o investigadores: estar incluidos en el registro de personal de la Facultad, presentar en Biblioteca Resolución del cargo actualizada y documento de identidad. Duración de la inscripción: 1 año calendario
-    No docentes: estar incluidos en el registro de personal de la Facultad, presentar certificado del área Personal que acredite su cargo y documento de identidad. Duración de la inscripción 1 año calendario
-    Egresados:cumplimentar los requisitos establecidos en la solicitud entregada por la misma biblioteca, DNI y pago de la cuota anual. Duración de la inscripción: 1 año calendario
-    Alumnos:presentar LTP con inscripción académica correspondiente al año lectivo en curso. Duración de la inscripción: 1 año académico
-    Postgrado:Doctorados y Maestrías: Resolución donde figura que fue aceptado a dicho Doctorado o  comprobantes de pago de inscripción y DNI.Duración de la inscripción: 1 año académico
-    Alumnos Vocacionales:se los inscribe con LTP y por el año en curso.Duración de la inscripción: hasta el 31 de diciembre
-    Alumnos intercampus: se los inscribe presentando carnet intercampus y Pasaporte. Duración de la inscripción: solo por el período que permanezca en las  Facultades.
-    Docentes y/o investigadores de otras Facultades:estar incluidos en el registro de personal de la Facultad a la que pertenecen, presentar en biblioteca  Resolución del cargo de la Facultad respectiva, donde figure la duración del proyecto, DNI y abonar la cuota. Duración inscripción 1 año calendario
-    5- Los/as usuarios/as, deberán reinscribirse todos los años, en la fecha estipulada y actualizar los datos personales: domicilio, teléfono, correo electrónico, etc., para lo cual deberán presentarse en biblioteca.
+    <li><strong>No docentes:</strong> deberan estar incluidos en el 
+    registro de personal de la Facultad, y tendran que presentar certificado 
+    del área Personal que acredite su cargo y el documento de identidad. La Duración de la 
+    inscripción es 1 año calendario.</li>
+    <li><strong>Egresados:</strong> deberan cumplimentar los requisitos 
+    establecidos en la solicitud entregada por la misma 
+    biblioteca, y ademas el DNI y, por ultimo, deberan realizar el pago de la cuota anual. 
+    La Duración de la inscripción es 1 año calendario.</li>
+    <li><strong>Alumnos:</strong> deberan presentar Libreta Trabajos de Practicos, con la inscripción académica correspondiente al año lectivo en curso. 
+    La Duración de la inscripción es 1 año académico.</li>
+    <li><strong>Alumnos Vocacionales:</strong> se deberan inscribirse con la Libreta Trabajos 
+    de Practicos y por el año en curso. 
+    La Duración de la inscripción es hasta el 31 de diciembre.</li>
+    <li><strong>Alumnos intercampus:</strong> se deberan inscribir, presentando 
+    el carnet intercampus y el Pasaporte. La Duración de la inscripción
+    es solo por el período que permanezca en las Facultades.</li>
+    <li><strong>Docentes y/o investigadores de otras Facultades:</strong>
+    deberan estar incluidos en el registro del personal de la 
+    Facultad, a la que pertenecen, que tendran que presentar en biblioteca, 
+    la Resolución del cargo de la Facultad respectiva,
+    en el cual, figure la duración del proyecto, el DNI y, por ultimo, tendran que abonar la cuota. La Duración de la inscripción es 1 año calendario.</li>
+    </ul>
+    <br>
+    
+    <p>Los/as usuarios/as, deberán reinscribirse todos los años, en la fecha estipulada y actualizar los datos personales, como:</p>
+    <ul>
+    <li>domicilio</li>
+    <li>teléfono</li>
+    <li>correo electrónico</li>
+    <li>y otros datos, segun correspondan y sean solicitados por el personal de la biblioteca</li>
+    </ul>
 
-    PRÉSTAMOS A DOMICILIO
-    6- Es requisito indispensable estar inscripto en biblioteca, para gozar de préstamos de material bibliográfico a domicilio.
-    7- Los préstamos son personales debiendo presentar, Libreta de Trabajos Prácticos o Documento de Identidad o Cédula, sin excepción, siendo el material facilitado de absoluta responsabilidad de quien lo retira.
+    <p>Los datos personales deberán ser presentados en la biblioteca, para ser actualizados, por el titular al personal de la biblioteca.</p>
+    <br>
+    <p><span style="color: #ff00ff"><strong>PRÉSTAMOS A DOMICILIO:</strong><span></p>
 
-    8- Las devoluciones no son personales y pueden ser realizadas por terceros.
+    <p><strong>¿Cual es el requisito indispensable para acceder a los prestamos a domicilio?</strong></p>
 
-    9- Los/las docentes, investigadores/as, tesistas, maestrandos/as y doctorandos/as podrán retirar hasta cuatro (4) libros y cuatro (4) revistas. Los/las alumnos/as, ayudantes-alumnos/as, egresados/as y no-docentes podrán retirar hasta tres (3) libros y tres (3) revistas. Dichos préstamos se efectuarán por el término de siete(7) días corridos, con excepción de los ‘préstamos restringidos’ de dos (2) días. Un/a mismo/a usuario/a no podrá retirar dos ejemplares iguales.
+    <p>El requisito indispensable, es estar inscripto en biblioteca, para gozar de préstamos de material 
+    bibliográfico a domicilio.</p>
+   
+    <p>Los préstamos son personales debiendo presentar, Libreta de Trabajos Prácticos o Documento de 
+    Identidad o Cédula, sin excepción, siendo el material facilitado de absoluta responsabilidad de quien 
+    lo retira.</p>
+    <p><strong>¿Quienes pueden realizar las devoluciones?</strong></p>
+    <p>Las devoluciones no son personales y pueden ser realizadas por terceros.</p>
+    </p>
+    </p><strong>¿Cuantos materiales de la biblioteca pueden llevarse a su domicilio, en el prestamo?</strong></p>
+    <ul>
+    <li>Los/las docentes, investigadores/as, tesistas, maestrandos/as y doctorandos/as podrán retirar hasta cuatro (4) libros y cuatro (4) revistas.</li>
+    <li>Los/las alumnos/as, ayudantes-alumnos/as, egresados/as y no-docentes podrán retirar hasta tres (3) libros y tres (3) revistas.</li></ul>
+    <p>Dichos préstamos se efectuarán por el término de siete(7) días corridos, con excepción de los <i>"préstamos restringidos"</i> 
+    de dos (2) días. Un/a mismo/a usuario/a no podrá retirar dos ejemplares iguales.</p>
 
-    10- Dentro del acervo bibliográfico se distinguen las siguientes categorías:
+    <p><strong>¿Que tipo de material puede prestarse a domicilio, de la biblioteca?</strong></p>
+    <p>En el acervo bibliográfico de la biblioteca, se distinguen las siguientes categorías:</p>
 
-    1) material para préstamos en sala, a domicilio e interbibliotecario :
+    <p><strong><i>Material para préstamos en sala, a domicilio e interbibliotecario:</i></strong></p>
+    <ul>
+    <li>bibliografía de todas las secciones, salvo las excepciones contempladas en el apartado (2) bibliografía incluida en la modalidad Estantería Abierta que además se puede consultar sin presentación del DNI. </li>
+    <li>bibliografía seleccionada por las distintas cátedras que podrán consultarse en sala de lunes a viernes y estará disponible para el préstamo a domicilio y/o interbibliotecario, los viernes a partir de las 17:00 hs. hasta el lunes siguiente antes de las 11:00 hs.</li>
+    </ul>
 
-    bibliografía de todas las secciones, salvo las excepciones contempladas en el apartado (2)
-    bibliografía incluida en la modalidad Estantería Abierta que además se puede consultar sin presentación del DNI.
-    bibliografía seleccionada por las distintas cátedras que podrán consultarse en sala de lunes a viernes y estará disponible para el préstamo a domicilio y/o interbibliotecario, los viernes a partir de las 17:00 hs. hasta el lunes siguiente antes de las 11:00 hs.
-    Material audiovisual: método Linguaphone de inglés, francés, griego y latín el cual se prestará por el término de quince (15) días.
-    2) Material bibliográfico disponible sólo para consulta en sala de lectura :
-
-    obras de referencia: enciclopedias, diccionarios, guías, mapas, etc.
-    libros de Valor Especial: ediciones agotadas, antiguas, libros ilustrados y de lujo, libros anteriores a1930 (Fondo Antiguo), códices, obras que integran el fondo documental de la bibliotca “Monseñor Pablo Cabrera”, etc.
-
+    <p><strong><i>Material audiovisual:</i></strong></p>
+    
+    <ul>
+    <li>método Linguaphone de inglés, francés, griego y latín, el cual se prestará por el término de quince (15) días.</li>
+    </ul>
+   
+    <p><strong><i>Material bibliográfico disponible sólo para consulta en sala de lectura:</i></strong></p>
+    
+    <ul>
+    <li>obras de referencia: 
+    <li>enciclopedias</li> 
+    <li>diccionarios</li>
+    <li>guías</li>
+    <li>mapas</li>
+    <li>y otros materiales bibliográficos</li>
+    </ul>
+    <p><strong><i>Los libros de Valor Especial del acervo bibliográfico de la biblioteca:</i></strong></p>
+    
+    <ul>
+    <li>ediciones agotadas</li>
+    <li>antiguas</li>
+    <li>libros ilustrados y de lujo</li>
+    <li>libros anteriores a 1930 (Fondo Antiguo)</li>
+    <li>códices</li>
+    <li>obras que integran el fondo documental de la bibliotca “Monseñor Pablo Cabrera”</li>
+    <li>y otros materriales del acervo bibliográfico</li>
+    </ul>
 
 
     <ul>
@@ -447,21 +532,23 @@ function carga_inicial() {
     </ul>
     
     
+    <p><strong><i>Texto modificado del original, con la intencion acercar informacion y que la lectura sea mas entendible. Fuente: Reglamento de la biblioteca.</i></strong></p>
+    <p>Para mas informacion y confiable.<strong> Lea el Reglamento de la biblioteca: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a></strong></p>
+    <br>
     
-    <p>Ver Reglamento de la biblioteca: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a>
     <p><span style="color: #ff00ff"><strong> PRÉSTAMOS INTERBIBLIOTECARIOS:</strong><span></p>
-   
-    
     <ul>
     <li><strong>UNC:</strong> Todos los socios pueden beneficiarse con este sistema y solicitar materiales no disponibles en esta biblioteca a otras bibliotecas de la UNC.</li>
-    <li><strong>ABUC:</strong> Todos los socios pueden solicitar en préstamo material disponibles en bibliotecas de otras universidades de la provincia de Córdoba través de ABUC – Acuerdo de Bibliotecas Universitarias de Córdoba – abriendo un importante abanico de posibilidades en cuanto a la cooperación e intercambio de bibliografía.</li>
+    <li><strong>ABUC:</strong> Todos los socios pueden solicitar en préstamo material disponibles en bibliotecas de otras universidades de la provincia de Córdoba través de ABUC (Acuerdo de Bibliotecas Universitarias de Córdoba), abriendo un importante abanico de posibilidades en cuanto a la cooperación e intercambio de bibliografía.</li>
     
     </ul>
+    <br>
     
     <p>Visite el Sitio Oficial de ABUC: <a href="https://abuc.org.ar/portal/">https://abuc.org.ar/portal/</a></p>
     
    
     <p>Reglamento Biblioteca de FFyH - Psicologia: <a href="https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/">https://ffyh.unc.edu.ar/biblioteca/reglamento-de-la-biblioteca/</a>
     `)
+    
     incluir_funcion_botones();
 }
