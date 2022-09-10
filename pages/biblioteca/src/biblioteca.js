@@ -362,13 +362,12 @@ function carga_inicial() {
     <ul>
     <li>Diseño general y presentación: utilice alineación a la izquierda (esto ayuda a encontrar el principio del renglón).</li>
     <li>Explicar las abreviaturas y acrónimos.</p></li>
-    <li>El tamaño de fuente debe ser grande: no se recomiendan letras inferiores a 12 puntos./li>
+    <li>El tamaño de fuente debe ser grande: no se recomiendan letras inferiores a 12 puntos.</li>
     <li>Para las imágenes, incorporar textos explicativos, ya que el texto que forma parte de una imagen no es accesible, repetirlo por fuera.</li>
     <li>Diseño general y presentación: utilice alineación a la izquierda (esto ayuda a encontrar el principio del renglón).</li>
     <li>Para los enlaces, evitar textos como “clic aquí” o “más información”.</li>
     <li>Algunas personas ciegas navegan por las páginas leyendo únicamente el texto de los enlaces.Insertarlos siempre como hipervínculos.</li>
     
-    <li>Un documento PDF etiquetado es una versión de PDF que incluye tanto el contenido deldocumento como información sobre su estructura lógica y del orden de lectura, de forma que el documento pueda ser leído correctamente por los lectores de pantalla.</li>
     <li>Un documento PDF etiquetado es una versión de PDF que incluye tanto el contenido deldocumento como información sobre su estructura lógica y del orden de lectura, de forma que el documento pueda ser leído correctamente por los lectores de pantalla.</li>
     </ul>
     <p><span style="color: #ff00ff"><strong> LICENCIAS CREATIVECOMMONS:</strong><span></p>
