@@ -203,7 +203,10 @@ function incluir_funcion_botones() {
     document.getElementById("procedimientos_documentos_digitalizados_bt").onclick = function () {
         show_text_hijo("procedimientos_documentos_digitalizados");
     }
- 
+    document.getElementById("consulta_sala_americanistas_bt").onclick = function () {
+        show_text_hijo("consulta_sala_americanistas");
+    }
+    
 
 
     document.getElementById("boton_menu_smartphone").onclick = function () {
@@ -637,5 +640,33 @@ function carga_inicial() {
     <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/procedimientos-para-la-consulta-de-documentos-digitalizados/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/procedimientos-para-la-consulta-de-documentos-digitalizados/</strong></a></p>
 
     `)
+    incluir_seccion_hijo("consulta_sala_americanistas","Consulta en sala de Americanistas, banco de tesis, fondo antiguo","instructivos_guias_varios")
+    actualizar_parrafo("consulta_sala_americanistas",`
+
+
+    <p><span style="color: #ff00ff"><strong> Biblioteca Elma K. de Estrabou - Consulta en sala de Americanistas, banco de tesis, fondo antiguo.</strong><span></p>
+    <br>
+
+   <p>Usted se comunicó con la Biblioteca para solicitar un turno para la consulta en el Dpto Americanistas y/o el Banco de Tesis de Psicología. Es necesario que complete este formulario y detalle la bibliografía que necesita (Autor, título y signatura topográfica) para lo cual deberá ingresar al catálogo y verificar si esta disponible: </p>
+   <p><a href="https://ffyh.biblio.unc.edu.ar/"target="_blank" rel="noopener"><strong>https://ffyh.biblio.unc.edu.ar/</strong></a></p>
+   <br>
+   <p>Recuerde consignar su número de celular y correo electrónico y nos estaremos comunicando para otorgarle un turno.</p>
+
+   <p>Si Ud. no esta inscripto/a en la Biblioteca en el 2021 por favor complete el formulario de este enlace:</p>
+   <p><a href="https://ffyh.unc.edu.ar/biblioteca/inscripcion-a-biblioteca-2020-online/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/inscripcion-a-biblioteca-2020-online/</strong></a></p>
+   <br>
+   <p>Por cualquier consulta escribanos a: <a href="mailto:circulacion@ffyh.unc.edu.ar">circulacion@ffyh.unc.edu.ar</a></p>
+    <br>
+   <p><strong>Fuente:</strong> Pagina de la Consulta en el Dpto Americanistas y/o el Banco de Tesis de Psicología.</p>
+    <p>Para ir al Sitio:</p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/consulta-en-el-dpto-americanistas-y-o-el-banco-de-tesis-de-psicologia/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/consulta-en-el-dpto-americanistas-y-o-el-banco-de-tesis-de-psicologia/</strong></a></p>
+    <br>
+    <p>Para ir Formulario de Google:</p>
+    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScp7PgQYM4vA7Md2E04ZI-VIkWVpcK1AJuWwnhGq7TrnLadKA/viewform"target="_blank" rel="noopener"><strong>https://docs.google.com/forms/d/e/1FAIpQLScp7PgQYM4vA7Md2E04ZI-VIkWVpcK1AJuWwnhGq7TrnLadKA/viewform</strong></a></p>
+
+    
+    
+    `)
+
     incluir_funcion_botones();
 }
