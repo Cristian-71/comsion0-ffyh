@@ -295,7 +295,7 @@ function carga_inicial() {
    `)
     incluir_seccion_hijo("contacto-redes-sociales","Contacto y Redes Sociales","informacion_general")
     actualizar_parrafo("contacto-redes-sociales",`
-    Contacto y Redes Sociales
+    
     <p><span style="color: #ff00ff"><strong>BIBLIOTECA ELMA KOHLMEYER DE ESTRABOU</strong></span></p>
 
     <p>Facultad de Filosofía y Humanidades - Facultad de Psicología</p>
@@ -542,12 +542,12 @@ function carga_inicial() {
     <li> <strong>Ley Nacional 22.275</strong> de Acceso a la Informacion Publica.</li>
     <li> <strong>Decreto 117/2016:</strong> Plan de apertura de datos. </li>
     </ul>
-    <p>Repositorio Digital de la UNC: <a href="https://rdu.unc.edu.ar/">https://rdu.unc.edu.ar/</a></p>
-    <p>Programa Arqueologia Digital. Museo de Antropologia IDACOR-CONICET. Repositorio Digital Suquia: <a href="https://suquia.ffyh.unc.edu.ar/">https://suquia.ffyh.unc.edu.ar/</a></p>
+    <p>Repositorio Digital de la UNC: <a href="https://rdu.unc.edu.ar/" target="_blank" rel="noopener noreferrer">https://rdu.unc.edu.ar/</a></p>
+    <p>Programa Arqueologia Digital. Museo de Antropologia IDACOR-CONICET. Repositorio Digital Suquia: <a href="https://suquia.ffyh.unc.edu.ar/" target="_blank" rel="noopener noreferrer">https://suquia.ffyh.unc.edu.ar/</a></p>
     <p>Hay legislaciones a nivel internacional que ampara la existencia de repositorios abiertos al público.</p>
     <p>Entre las instituciones públicas que tienen repositorios de dominios  públicos,  las universidades nacionales, museos bajo nacional, archivos documentales provinciales y nacionales, bibliotecas, repositorios del Archivo Nacional de Argentina, bibliotecas y otras organizaciones, sitios web como Github.</p>
 
-        
+     <br>   
     <br><p><span style="color: #ff00ff"><strong>INSTRUCTIVO PARA SECRETARIA</strong><span></p>
     
     <p>Concluído el proceso de aprobación de la tesis de grado, la Secretaría pertinente remitirá, a la Biblioteca Central, mediante correo electrónico: <a href="mailto:rdu@ffyh.unc.edu.ar">rdu@ffyh.unc.edu.ar</a>, el siguiente material:</p>
@@ -558,6 +558,7 @@ function carga_inicial() {
     <p>Como último paso, solicitará al nodo (Biblioteca Central) que dé acuse de recibo, a los efectos de validar la recepción.</p>
     <p>Ante cualquier duda, la Secretaría Académica, según corresponda, resolverá.</p>
     <p><span style="color: #ff00ff"><strong>INSTRUCTIVO PARA EL TESISTA</strong><span></p>
+    <br> 
     <p><span style="color: #ff00ff"><strong>PRESENTACION DE TESIS DE GRADO EN FORMATO DIGITAL</strong><span></p>
     
     <p>Para depositar la tesis en el Repositorio Digital Universitario RDU, el tesista deberá entregar a la Secretaría los siguientes archivos:</p>
@@ -566,6 +567,7 @@ function carga_inicial() {
     <li> TXT con el formulario de carga, completado por el autor, con los datos necesarios para subir la tesis al Repositorio.</li>
     </ul>
     <p>A continuación se enumeran aspectos técnicos, sugerencias de inclusión y un pequeño lineamiento para la selección de la licencia CreativeCommons</p>
+    <br>
     <p><span style="color: #ff00ff"><strong>ASPECTOS TECNICOS:</strong><span></p>
     
     <p>La versión digital del documento debe presentarse en un solo archivo en formato PDF, y 
@@ -576,8 +578,9 @@ function carga_inicial() {
     <p>En cuanto al nombre del archivo se solicita que se guarde con la siguiente 
     modalidad: apellido espacio guión espacio las cinco primeras palabras del 
     título, máx. 25 caracteres.</p>
-   
+    <br> 
     <p><span style="color: #ff00ff"><strong>ACCESIBILIDAD:</strong><span></p>
+    <br> 
     <p><span style="color: #ff00ff"><strong> SUGERENCIAS A TENER EN CUENTA:</strong><span></p>
 
     <p>Es importante incorporar en la elaboración de los contenidos, elementos de accesibilidad, a fin de postular un conocimiento de acceso realmente abierto para todos.</p>
@@ -593,6 +596,7 @@ function carga_inicial() {
     
     <li>Un documento PDF etiquetado es una versión de PDF que incluye tanto el contenido deldocumento como información sobre su estructura lógica y del orden de lectura, de forma que el documento pueda ser leído correctamente por los lectores de pantalla.</li>
     </ul>
+    <br> 
     <p><span style="color: #ff00ff"><strong> LICENCIAS CREATIVECOMMONS:</strong><span></p>
    
     <p>La licencia seleccionada debe encontrarse inserta en el cuerpo de la obra (preferentemente en la portada), de este modo, cuando el archivo es descargado, la licencia continúa ligada a la obra.</p>
@@ -609,6 +613,7 @@ function carga_inicial() {
     <li>El segundo paso, es opcional. Aquí se pueden agregar metadatos a la licencia, tales como: datos de título y nombre completo del autor</li>
     <li>El tercer paso consiste en copiar la licencia seleccionada, que se presenta en el último panel. Copiar y pegar en el documento de la tesis.</li>
     </ul>
+    <br>
     <p><strong><i>Hay algunos detalles, informacion, archivos de la resolucion aprobada por la universidad, documentaciones oficiales, que quedaron fuera. Les recomendio visitar la Pagina Presentacion de trabajos finales al Repostorio Digital Universal, para acceder a la informacion que no se encuentra presente en este texto.</i></strong></p>
 
     <br><p><strong>Fuente:</strong> Pagina de la Presentacion de trabajos finales al Repostorio Digital Universal.</p>
@@ -1343,7 +1348,7 @@ function carga_inicial() {
     <p style="text-align: justify"><span style="font-size: 14pt">Como prueba de ello, basta recorrer el amplísimo catálogo de la Biblioteca Baldwin de Literatura Infantil Histórica, adscrita a la Universidad de Florida y que recientemente liberó para su consulta abierta la digitalización de más de 6 mil ejemplares del género, publicados desde mediados del siglo XIX y hasta mediados del XX, especialmente en Estados Unidos y el Reino Unido, con algunos pocos libros provenientes de Alemania, Francia, España y otros países.</span></p>
     <p style="text-align: justify"><span style="font-size: 14pt">Cabe mencionar que dicha biblioteca lleva el nombre de su coleccionista: Ruth Baldwin, quien durante 40 años reunió libros dirigidos al público infantil, en los diversos “subgéneros” que ha tenido a lo largo de la historia ese ámbito de la edición. Libros de literatura, edificantes, pedagógicos, religiosos, morales, artísticos, de entretenimiento, de valores cívicos o familiares y varios más, los cuales en casi todos los casos respondieron a momentos específicos de la sociedad en la que emergieron.</span></p>
     <br>
-    <p style="text-align: justify"><span style="font-size: 14pt"><img class="aligncenter" src="https://i0.wp.com/23.253.41.33/imagesPosts/libro2.jpg?w=1200" alt="" data-recalc-dims="1" /></span></p>
+    <p style="text-align: justify"><span style="font-size: 14pt"><img class="aligncenter" src="https://i0.wp.com/23.253.41.33/imagesPosts/libro2.jpg?w=1200" alt="" data-recalc-dims="1" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;"/></span></p>
     <br>
     <p style="text-align: justify"><span style="font-size: 14pt">En el caso del catálogo digital, es posible explorar dicha biblioteca siguiendo criterios de año o lugar de publicación, nombre del editor e incluso la categoría temática a la cual pertenece el libro. Asimismo, el catálogo cuenta con una media docena de colecciones particulares, como la de libros relacionados con los cuentos de los hermanos Grimm, con San Nicolás o con <em>Alicia en el país de las maravillas</em>.</span></p>
     <p style="text-align: justify"><span style="font-size: 14pt">Siguiendo <strong><a href="http://ufdc.ufl.edu/baldwin/all/thumbs" target="_blank" rel="nofollow noopener noreferrer">este enlace puedes revisar el catálogo de la Baldwin Library of Historical Children&#8217;s Literature</a></strong>, y seas un entusiasta de la literatura infantil, de los libros, de las ilustraciones, de la historia cultural o de la creatividad en sí, estamos seguros de que encontrarás varias ocasiones de asombro y placer. </span></p>
