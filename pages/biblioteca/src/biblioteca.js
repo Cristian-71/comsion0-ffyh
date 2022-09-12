@@ -256,6 +256,10 @@ function incluir_funcion_botones() {
     document.getElementById("revistas_digitales_bt").onclick = function () {
         show_text_hijo("revistas_digitales");
     }
+    document.getElementById("repositorio_institucional_digital_rdu_bt").onclick = function () {
+        show_text_hijo("repositorio_institucional_digital_rdu");
+    }
+    
     
     
     document.getElementById("boton_menu_smartphone").onclick = function () {
@@ -1354,7 +1358,7 @@ function carga_inicial() {
     `)
     incluir_seccion_hijo("revistas_digitales","Revistas digitales","recursos_digitales_online")
     actualizar_parrafo("revistas_digitales",` 
-   <br>
+    <br>
     <p><span style="color: #ff00ff"><strong>REVISTAS DIGITALES</strong></span></p>
     <br>
     <div>
@@ -1509,8 +1513,56 @@ function carga_inicial() {
     <br>
     <p>Fuente: seccion de Revistas digitales de la pagina de la Biblioteca FFyH:</p>
     <p>Visite esta pagina para conocer la lista completa de Revistas digitales: <a href="https://ffyh.unc.edu.ar/biblioteca/revistas-digitales-2/" target="_blank" rel="noopener noreferrer">https://ffyh.unc.edu.ar/biblioteca/revistas-digitales-2/</a></p>
-
-
+    `)
+    incluir_seccion_hijo("repositorio_institucional_digital_rdu","Repositorio Institucional RDU","recursos_digitales_online")
+    actualizar_parrafo("repositorio_institucional_digital_rdu",`
+    <br>
+    <p><span style="color: #ff00ff"><strong>Acerca del Repositorio Institucional</strong></span></p>
+    <br>
+    <div class="entry-content">
+    <div class="at-above-post-page addthis_tool" data-url="https://ffyh.unc.edu.ar/biblioteca/acerca-de-nuestro-repositorio-institucional/"></div>
+    <p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/nodos-oca/" target="_blank" rel="noopener noreferrer">
+    <span style="color: #ff0000"><img data-attachment-id="2713" data-permalink="https://ffyh.unc.edu.ar/biblioteca/acerca-de-nuestro-repositorio-institucional/rdu-2/" 
+    data-orig-file="https://i0.wp.com/ffyh.unc.edu.ar/biblioteca/wp-content/uploads/sites/4/2018/06/RDU.jpg?fit=372%2C141&amp;ssl=1" data-orig-size="372,141" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" 
+    data-image-title="RDU" data-image-description="" data-image-caption="" 
+    data-medium-file="https://i0.wp.com/ffyh.unc.edu.ar/biblioteca/wp-content/uploads/sites/4/2018/06/RDU.jpg?fit=300%2C114&amp;ssl=1" 
+    data-large-file="https://i0.wp.com/ffyh.unc.edu.ar/biblioteca/wp-content/uploads/sites/4/2018/06/RDU.jpg?fit=372%2C141&amp;ssl=1" 
+    class="wp-image-2713 alignright" src="https://i0.wp.com/ffyh.unc.edu.ar/biblioteca/wp-content/uploads/sites/4/2018/06/RDU.jpg?resize=293%2C111" 
+    alt="" width="293" height="111" srcset="https://i0.wp.com/ffyh.unc.edu.ar/biblioteca/wp-content/uploads/sites/4/2018/06/RDU.jpg?w=372&amp;ssl=1 372w, 
+    https://i0.wp.com/ffyh.unc.edu.ar/biblioteca/wp-content/uploads/sites/4/2018/06/RDU.jpg?resize=300%2C114&amp;ssl=1 300w" sizes="(max-width: 293px) 100vw, 293px" data-recalc-dims="1" /></span>
+   </a>
+    </p>
+   <br>
+    <p><strong>NODOS DE LA BIBLIOTECA ANTE LA OFICINA DE CONOCIMIENTO  ABIERTO</strong>
+    <ul>
+    <li><strong>Bibl. Nora Fernández</strong></li>
+    <li><strong>Correo electrónico:</strong> <a href="mailto:norafernandez@ffyh.unc.edu.ar">norafernandez@ffyh.unc.edu.ar</a></strong></li>
+    <li><strong>Teléfono IP:</strong><strong> 5353610, interno 50401</strong></li>
+    <li><strong>Sr. Javier González<br />
+    </strong></li>
+    <li><strong>Correo Electrónico: </strong><strong><span class="PbnGhe oJeWuf fb0g6 eejsDc"><a href="mailto:javiergonzalez@ffyh.unc.edu.ar"><span dir="ltr" data-tooltip="Enviar correo">javiergonzalez@ffyh.unc.edu.ar</span></a></span><br />
+    </strong></li>
+    <li><strong>Teléfono IP: 5353601, interno: 50223</strong></li>
+    </ul>
+    <br>
+    <p><strong>REPOSITORIO DIGITAL UNIVERSITARIO &#8211; RDU</strong></p>
+    <p><a href="https://rdu.unc.edu.ar" target="_blank" rel="noopener noreferrer">El Repositorio Digital Universitario (RDU)</a> y el <a href="https://revistas.unc.edu.ar/" target="_blank" rel="noopener noreferrer">Portal de Revistas de la UNC</a> son los Repositorios Institucionales de acceso abierto de la Universidad Nacional de Córdoba y se encuentran adheridos al Sistema Nacional de Repositorios Digitales (SNRD) del Ministerio de Ciencia, Tecnología e Innovación Productiva (MINCYT).</p>
+    <p>El Repositorio Digital Universitario (RDU) es un espacio donde se almacena, organiza, preserva, provee acceso libre y da visibilidad a nivel nacional e internacional, a la<br />
+    producción científica, académica y cultural en formato digital, generada por los integrantes de la Universidad Nacional de Córdoba.</p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/nodos-oca/" target="_blank" rel="noopener noreferrer">Información acerca de los Nodos OCA</a></p>
+    <br>
+    <p><strong>MAS INFORMACIÓN DE INTERÉS SOBRE EL REPOSITORIO</strong></p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/" target="_blank" rel="noopener noreferrer">Presentación de Tesis en Formato Digital</a></p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/derechos-de-autor/" target="_blank" rel="noopener noreferrer">Derechos de Autor</a></p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/acceso-abierto-2/" target="_blank" rel="noopener noreferrer">Acceso Abierto</a></p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/licencias-creative-commons/" target="_blank" rel="noopener noreferrer">Licencias Creative Commons</a></p>
+    <p><a href="https://ffyh.unc.edu.ar/biblioteca/repositorio-institucional-unc-2/" target="_blank" rel="noopener noreferrer">Normativas </a></p>
+    <p>Fuente de Información: Resolución Políticas de la UNC y Página Web de la OCA</p>
+    <br>
+    <p>Fuente: seccion de Repositorio Institucional RDU de la pagina de la Biblioteca FFyH:</p>
+    <p>Visite la pagina Repositorio Institucional RDU, de la Biblioteca FFyH: <a href="https://ffyh.unc.edu.ar/biblioteca/acerca-de-nuestro-repositorio-institucional/" target="_blank" rel="noopener noreferrer">https://ffyh.unc.edu.ar/biblioteca/acerca-de-nuestro-repositorio-institucional/</a></p>
+    
     `)
 
     incluir_funcion_botones();
