@@ -68,7 +68,10 @@ function incluir_funcion_botones(){
     document.getElementById("calendario_boton").onclick = function() {
         mostrar_conntenido("calendario_contenido");
     }
-
+    document.getElementById("despacho_ffyh_boton").onclick = function() {
+        mostrar_conntenido("despacho_ffyh_contenido");
+    }
+    
     window.onresize = function(){
         var anchoVentana = window.innerWidth;
         if(anchoVentana >= 886){

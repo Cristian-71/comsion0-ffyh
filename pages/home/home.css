@@ -324,7 +324,13 @@ iframe{
     width: 100%;
     height: 80vh;
 }
-
+#despacho_ffyh_contenido img{
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+}
 
 .imagenes-planos{
     display: none;
