@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./pages/recursos_digitales/recursos_digitales.css">
+        <script src="./pages/recursos_digitales/src/recursos_digitales.js"></script>
+        <link rel="icon" href="./pages/home/imagenes/logo.png">
+
+        <title>Biblioteca</title>
+    </head>
+    <body onload="carga_inicial()">
+        <div id="root">
+            <!-- component header -->
+            <header id="header_desktop">
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+                <div class="menu_div">
+                    <button class="boton_menu" onclick = "change_html('./index.html')">
+                        Home                    
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./guarani.html')">
+                        Guaraní   
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./carreras.html')">
+                        Carreras   
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes   
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./biblioteca.html')">
+                        Biblioteca  
+                    </button>
+                    <button id ="boton_pagina_actual">
+                        Recursos Digitales   
+                    </button>
+                </div>
+            </header>
+
+            <header id="header_smartphone">
+                <div class="menu_div">
+                    <button class="boton_menu" id="boton_menu_smartphone">
+                        <svg class="icono-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>                    
+                    </button>
+                </div>
+                <div class="logo_div">
+                    <a id="logo" href="./index.html">COMØ</a>
+                </div>
+
+            </header>
+
+            <div class="menu_div" id="menu_div_smartphone">
+                <div class="background_menu_div_smartphone"></div>
+                <div class ="botones_meu_div_smartphone">
+                    <button class="boton_menu" onclick = "change_html('./index.html')">
+                        Home                    
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./guarani.html')">
+                        Guaraní   
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./carreras.html')">
+                        Carreras   
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./preguntas.html')">
+                        Preguntas Frecuentes   
+                    </button>
+                    <button class="boton_menu" onclick = "change_html('./biblioteca.html')">
+                        Biblioteca  
+                    </button>
+                    <button id ="boton_pagina_actual">
+                        Recursos Digitales   
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+            <main id="main">
+                <section id="contenido">
+                    <div class="titulo_main">
+                        <p>Biblioteca</p>
+                    </div>
+                    <div class = "contenido_main" id="contenido_main">
+                    </div>
+                </section>
+                
+               <!-- <div id="barra_lateral_main">
+                    <img id = "imagen_barra_lateral" src = "./images/fcefyn-logo.png">
+                </div>-->
+
+            </main>
+
+
+            <script type="module" src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </script>
+            <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+            <footer>
+                <div class="waves">
+                    <div class="waves" id="waves1"></div>
+                    <div class="waves" id="waves2"></div>
+                    <div class="waves" id="waves3"></div>
+                    <div class="waves" id="waves4"></div>
+                </div>
+    
+                <ul class="social_icon">
+                    <li><a href="https://es-la.facebook.com/ffyh.unc/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/ffyhunc/?hl=es" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/school/fcefyn/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/EnzoDon/frontend.git" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+                <ul class="menu">
+                <!--    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Contact</a></li>-->
+                </ul>
+                <p>2022 Comision cero [ COMØ ] All Rights Reserveds</p>
+            </footer>
+
+
+        </div>
+    </body>
+
+
+</html>
