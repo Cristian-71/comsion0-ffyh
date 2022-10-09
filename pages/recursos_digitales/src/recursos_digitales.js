@@ -157,33 +157,60 @@ function mostrar_menu_lateral() {
 
 function incluir_funcion_botones() {
 
-    document.getElementById("informacion_general_bt").onclick = function () {
-        show_text_padre("informacion_general");
+    document.getElementById("herramientas_digitales_bt").onclick = function () {
+        show_text_padre("herramientas_digitales");
     }
-    document.getElementById("catalogo_enlace_bt").onclick = function () {
-        show_text_hijo("catalogo_enlace");
+    document.getElementById("definicion_bt").onclick = function () {
+        show_text_hijo("definicion");
+    }
+    document.getElementById("diferencias_web_app_bt").onclick = function () {
+        show_text_hijo("diferencias_web_app");
     }
    
-    document.getElementById("tutoriales_bt").onclick = function () {
-        show_text_padre("tutoriales");
+    document.getElementById("apps_trabajo_colaborativo_bt").onclick = function () {
+        show_text_padre("apps_trabajo_colaborativo");
     }
-    document.getElementById("introduccion_tutoriales_bt").onclick = function () {
-        show_text_hijo("introduccion_tutoriales");
+    document.getElementById("asana_bt").onclick = function () {
+        show_text_hijo("asana");
+    }
+    document.getElementById("trello_bt").onclick = function () {
+        show_text_hijo("trello");
+    }
+    document.getElementById("midmeister_bt").onclick = function () {
+        show_text_hijo("midmeister");
+    }
+    document.getElementById("mattermost_bt").onclick = function () {
+        show_text_hijo("mattermost");
     }
     
-    document.getElementById("instructivos_guias_varios_bt").onclick = function () {
-        show_text_padre("instructivos_guias_varios");
+    document.getElementById("apps_diseño_bt").onclick = function () {
+        show_text_padre("apps_diseño");
     }
-    document.getElementById("presentacion_tesis_repositorio_digital_bt").onclick = function () {
-        show_text_hijo("presentacion_tesis_repositorio_digital");
+    document.getElementById("canva_bt").onclick = function () {
+        show_text_hijo("canva");
+    }
+    document.getElementById("google_slides_bt").onclick = function () {
+        show_text_hijo("google_slides");
+    }
+    document.getElementById("befunky_bt").onclick = function () {
+        show_text_hijo("befunky");
+    }
+    document.getElementById("animoto_bt").onclick = function () {
+        show_text_hijo("animoto");
+    }
+    document.getElementById("biteable_bt").onclick = function () {
+        show_text_hijo("biteable");
     }
    
 
-    document.getElementById("recursos_digitales_online_bt").onclick = function () {
-        show_text_padre("recursos_digitales_online");
+    document.getElementById("desarrollo_web_bt").onclick = function () {
+        show_text_padre("desarrollo_web");
     }
-    document.getElementById("biblioteca_electronica_mincyt_bt").onclick = function () {
-        show_text_hijo("biblioteca_electronica_mincyt");
+    document.getElementById("wix_bt").onclick = function () {
+        show_text_hijo("wix");
+    }
+    document.getElementById("wordpress_bt").onclick = function () {
+        show_text_hijo("wordpress");
     }
     
     
@@ -210,20 +237,108 @@ function incluir_funcion_botones() {
 
 function carga_inicial() {
 
-    incluir_seccion_padre("informacion_general", "INFORMACION GENERAL DE LA BIBLIOTECA FFYH");
+    incluir_seccion_padre("herramientas_digitales", "HERRAMIENTAS DIGITALES");
 
-    incluir_seccion_hijo("catalogo_enlace", "Catalogo de Libros y Revistas","informacion_general")
-    actualizar_parrafo("catalogo_enlace", `
-   <p><span style="color: #ff00ff"><strong>Enlace del Catalogo de Libros, Banco de Tesis, Revistas.</strong></span></p>
-   <img src="./pages/biblioteca/imagenes/catalogo-imagen-biblioteca-ffyh.png" alt="Tips sacar foto al documento" style="box-sizing: border-box; margin-top: 5px; margin-bottom: 5px; width: 100%; height: 100%;">
-  <p><strong>Fuente:</strong> Pagina del Catalogo de la Biblioteca Libros y Revistas.</p>
-   <p>Para dirigirse al Sitio: <a href="https://ffyh.biblio.unc.edu.ar/"target="_blank" rel="noopener"><strong>Haga click aqui.</strong></a></p>
+    incluir_seccion_hijo("definicion", "¿Que son las Herramientas Ditiales?","herramientas_digitales")
+    actualizar_parrafo("definicion", `
+   <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
+    <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
+   <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
    `)
+   incluir_seccion_hijo("diferencias_web_app", "¿Cuales son las diferecias entre las 'WEB APP' y 'APP'?","herramientas_digitales")
+   actualizar_parrafo("diferencias_web_app", `
+  <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
    
-    incluir_seccion_padre("tutoriales", "TUTORIALES");
+  <table class="table" style="margin: 0 auto; border-collapse: collapse;">
+        <thead>
+          <tr>
+          <th scope="col">#</th>
+            <th scope="col">WEB APP</th>
+            <th scope="col">APP</th>
+           
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>El fronted se descarga de nuestro servidor. El fronted en una pagina web: es la estructura (HTML), el diseño (CSS),
+            el uso de JavaScript del lado del usuario y algunos frameworks o librerías para crear todo tipo de interfaces de usuario.
+            JavaScript que es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas 
+            en una páginas web.</td>
+        <td>Se descarga de los stores, el fronted está en el dispositivo del usuario (sólo necesitamos tener backend). 
+        El backend se encuentra detras del fronted, el flujo de trabajo de un backend 
+        consiste en darle funciones a un sitio; mientras que el frontend 
+        hace un sitio estático, el backend después le da funciones y adapta 
+        el sistema programado a ese sitio web.Otras funciones que se gestionan son:
+        <ul>
+         <li> Creación de funciones que simplifiquen el proceso de desarrollo.</li>       
+            <li>  Acciones de lógica.</li> 
+            <li>  Conexión con bases de datos.</li>
+            <li> Uso de librerías del servidor web (un ejemplo puede ser para implementar temas de caché).
+            </li>   
+         </ul>
 
-    incluir_seccion_hijo("introduccion_tutoriales","Introduccion: Tutoriales de la Biblioteca","tutoriales")
-    actualizar_parrafo("introduccion_tutoriales",`
+        </td>
+           
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Requiere tener dominio y hosting (10usd + 30 usd respectivamente por año aproximadamente</td>
+            <td>Requiere publicar en los stors (lleva tiempo) (25usd - 100usd única vez).</td>
+             </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">No perimite recibir notificaciones (relativo).</td>
+            <td>Puede recibir notificaciones</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>El contenido está indexado en Google.</td>
+            <td>Sòlo la publicación en los stores se indexa en Google.</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>En principio funciona en cualquier dispositvo.</td>
+            <td>Puede tener problemas de compatibilidad con diferentes sistemas operativos.</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td colspan="2"></td>
+            <td>Más dificil de desarrollar y recolectar estadisticas.</td>
+            
+           
+           
+          </tr>
+         
+        </tbody>
+      </table>
+  
+  <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+  `)
+   
+    incluir_seccion_padre("apps_trabajo_colaborativo", "APPS PARA PARA TRABAJO COLABORATIVO");
+
+    incluir_seccion_hijo("asana","Asana","apps_trabajo_colaborativo")
+    actualizar_parrafo("asana",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Desde la Biblioteca Elma Kohlmeyer de Estrabou se diseñaron tutoriales que orientan en la realización de búsquedas en el catálogo, desde las simples hasta las estrategias más avanzadas de búsquedas para acceder al texto completo por medio de enlaces en los registros.</p> 
+    <p>En estos tutoriales se describe paso a paso el uso del catálogo de la Biblioteca donde se muestran varias maneras de llegar a la información que se necesita, delimitando los resultados con expresiones propias del sistema, refinando las búsquedas mediante diversas opciones que se presentan para tal fin o usando conectores en búsquedas avanzadas.</p>
+    <p>Asimismo se describe cómo están conformados los registros, detallando la información que proporcionan y como utilizarla; indicando si el material se encuentra en la biblioteca electrónica del Mincyt o si posee versión digital de acceso abierto en la web. A fin de brindar esta información el equipo de la Biblioteca lleva enlazados en su catálogo más de dos mil registros a sitios seguros desde donde se acceden a los textos completos.</p>
+    <p><strong>Fuente:</strong> Pagina de la biblioteca, <a href="https://ffyh.unc.edu.ar/biblioteca/tutoriales-de-la-biblioteca/"target="_blank" rel="noopener">seccion de los tutoriales.</a></p>
+   `);
+   incluir_seccion_hijo("trello","Trello","apps_trabajo_colaborativo")
+    actualizar_parrafo("trello",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Desde la Biblioteca Elma Kohlmeyer de Estrabou se diseñaron tutoriales que orientan en la realización de búsquedas en el catálogo, desde las simples hasta las estrategias más avanzadas de búsquedas para acceder al texto completo por medio de enlaces en los registros.</p> 
+    <p>En estos tutoriales se describe paso a paso el uso del catálogo de la Biblioteca donde se muestran varias maneras de llegar a la información que se necesita, delimitando los resultados con expresiones propias del sistema, refinando las búsquedas mediante diversas opciones que se presentan para tal fin o usando conectores en búsquedas avanzadas.</p>
+    <p>Asimismo se describe cómo están conformados los registros, detallando la información que proporcionan y como utilizarla; indicando si el material se encuentra en la biblioteca electrónica del Mincyt o si posee versión digital de acceso abierto en la web. A fin de brindar esta información el equipo de la Biblioteca lleva enlazados en su catálogo más de dos mil registros a sitios seguros desde donde se acceden a los textos completos.</p>
+    <p><strong>Fuente:</strong> Pagina de la biblioteca, <a href="https://ffyh.unc.edu.ar/biblioteca/tutoriales-de-la-biblioteca/"target="_blank" rel="noopener">seccion de los tutoriales.</a></p>
+   `);
+   incluir_seccion_hijo("midmeister","Midmeister","apps_trabajo_colaborativo")
+    actualizar_parrafo("midmeister",`
     <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
     <p>Desde la Biblioteca Elma Kohlmeyer de Estrabou se diseñaron tutoriales que orientan en la realización de búsquedas en el catálogo, desde las simples hasta las estrategias más avanzadas de búsquedas para acceder al texto completo por medio de enlaces en los registros.</p> 
     <p>En estos tutoriales se describe paso a paso el uso del catálogo de la Biblioteca donde se muestran varias maneras de llegar a la información que se necesita, delimitando los resultados con expresiones propias del sistema, refinando las búsquedas mediante diversas opciones que se presentan para tal fin o usando conectores en búsquedas avanzadas.</p>
@@ -231,128 +346,83 @@ function carga_inicial() {
     <p><strong>Fuente:</strong> Pagina de la biblioteca, <a href="https://ffyh.unc.edu.ar/biblioteca/tutoriales-de-la-biblioteca/"target="_blank" rel="noopener">seccion de los tutoriales.</a></p>
    `);
 
-    incluir_seccion_padre("instructivos_guias_varios","INSTRUCTIVOS Y GUIAS VARIAS")
+   incluir_seccion_hijo("mattermost","Mattermost","apps_trabajo_colaborativo")
+    actualizar_parrafo("mattermost",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Desde la Biblioteca Elma Kohlmeyer de Estrabou se diseñaron tutoriales que orientan en la realización de búsquedas en el catálogo, desde las simples hasta las estrategias más avanzadas de búsquedas para acceder al texto completo por medio de enlaces en los registros.</p> 
+    <p>En estos tutoriales se describe paso a paso el uso del catálogo de la Biblioteca donde se muestran varias maneras de llegar a la información que se necesita, delimitando los resultados con expresiones propias del sistema, refinando las búsquedas mediante diversas opciones que se presentan para tal fin o usando conectores en búsquedas avanzadas.</p>
+    <p>Asimismo se describe cómo están conformados los registros, detallando la información que proporcionan y como utilizarla; indicando si el material se encuentra en la biblioteca electrónica del Mincyt o si posee versión digital de acceso abierto en la web. A fin de brindar esta información el equipo de la Biblioteca lleva enlazados en su catálogo más de dos mil registros a sitios seguros desde donde se acceden a los textos completos.</p>
+    <p><strong>Fuente:</strong> Pagina de la biblioteca, <a href="https://ffyh.unc.edu.ar/biblioteca/tutoriales-de-la-biblioteca/"target="_blank" rel="noopener">seccion de los tutoriales.</a></p>
+   `);
+    incluir_seccion_padre("apps_diseño","APPS DISEÑO")
 
-    incluir_seccion_hijo("presentacion_tesis_repositorio_digital","Requisitos para la Presentacion de la tesis al Repositorio Digital de la UNC","instructivos_guias_varios")
-    actualizar_parrafo("presentacion_tesis_repositorio_digital",`
+    incluir_seccion_hijo("canva","Canva","apps_diseño")
+    actualizar_parrafo("canva",`
     <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
     <p>Antes de comenzar este tiene como fin solo informar, si usted quiere saber, recurra a fuentes de información confiables y oficial de la universidad.</p>
     <p>Usted Se preguntará, <strong>¿Por qué tengo que presentar mi trabajo final/tesis/informe de PSS para que forme parte del repositorio digital de la Universidad?</strong></p>
-    <p>Hay una razón detrás de esta exigencia.</p>
-    <p>La universidad como institución que se encuentra a leyes nacionales, en 2007 se aprobó la Ley 26899 que contempla la Creación de Repositorios Digitales Institucionales de Acceso Abierto; en la cual exige a todas las instituciones gubernamentales o instituciones que se encuentre bajo la órbita de la nación, como el Ministerio de Educación, por lo tanto, todo el contenido que produjeron en investigación que se hayan financiado por el Estado nacional, tienen que encontrarse a disposición de todo el público.</p>
-    <p>Con fin de cumplir la ley se instauró la Oficina de Conocimiento Abierto que, en nuestra Universidad es la encargada de gestionar el Repositorio Institucional Digital de la UNC (RDU), y también tiene la función de coordinar la actuación de las Bibliotecas Universitarias, designadas como nodos responsables de incorporar la producción intelectual de las Facultades al mencionado RDU.</p>
-    <p>Usted se preguntará, <strong>¿Qué es un repositorio digital?</strong></p>
-    <p>Un repositorio es un espacio virtual en el cual se suben archivos , imágenes y documentos para tener su acceso en cualquier sitio en el cual te encuentres. Existen repositorios de dominio público y privado.</p>
-    <p>En los privados necesitas tener acceso al mismo por un nombre de usuario y una clave para poder acceder a los archivos subidos, en este caso es necesario registrarse. Las nubes vinculadas a correos electrónicos, podrían ser un ejemplo de estos de repositorios como los son: Google Drive, Dropbox, Onedrive de Outlook, etc; porque cumplen con algunas características que tienen los repositorios.</p>
-    <p>Los repositorios públicos no es necesario registrarse aunque en algunos casos si, los archivos e información se encuentran a disposición de quien tenga el dispositivo adecuado para acceder. Los entes gubernamentales e instituciones bajo la órbita del estado poseen repositorios públicos porque se encuentran amparados bajo la ley del acceso público a la información de los gobiernos y sus instituciones.</p> 
-    <ul>
-    <li> <strong>Ley Nº 26.899</strong> de Creacion de Repositorios Digitales Institucionales de Acceso Abierto.</li>
-    <li> <strong>Resolucion 753-E/2016 MINCYT:</strong> Regalmento operativo para aplicacion de la ley Nª 26.899.</li>
-    <li> <strong>Ley Nacional 22.275</strong> de Acceso a la Informacion Publica.</li>
-    <li> <strong>Decreto 117/2016:</strong> Plan de apertura de datos. </li>
-    </ul>
-    <p>Repositorio Digital de la UNC: <a href="https://rdu.unc.edu.ar/" target="_blank" rel="noopener noreferrer">https://rdu.unc.edu.ar/</a></p>
-    <p>Programa Arqueologia Digital. Museo de Antropologia IDACOR-CONICET. Repositorio Digital Suquia: <a href="https://suquia.ffyh.unc.edu.ar/" target="_blank" rel="noopener noreferrer">https://suquia.ffyh.unc.edu.ar/</a></p>
-    <p>Hay legislaciones a nivel internacional que ampara la existencia de repositorios abiertos al público.</p>
-    <p>Entre las instituciones públicas que tienen repositorios de dominios  públicos,  las universidades nacionales, museos bajo nacional, archivos documentales provinciales y nacionales, bibliotecas, repositorios del Archivo Nacional de Argentina, bibliotecas y otras organizaciones, sitios web como Github.</p>
+   <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
-     <br>   
-    <br><p><span style="color: #ff00ff"><strong>INSTRUCTIVO PARA SECRETARIA</strong><span></p>
-    
-    <p>Concluído el proceso de aprobación de la tesis de grado, la Secretaría pertinente remitirá, a la Biblioteca Central, mediante correo electrónico: <a href="mailto:rdu@ffyh.unc.edu.ar">rdu@ffyh.unc.edu.ar</a>, el siguiente material:</p>
-    <ul>
-    <li> Archivo correspondiente a la tesis.</li>
-    <li> Archivo del formulario de carga (completado por el tesista).</li>
-    </ul>
-    <p>Como último paso, solicitará al nodo (Biblioteca Central) que dé acuse de recibo, a los efectos de validar la recepción.</p>
-    <p>Ante cualquier duda, la Secretaría Académica, según corresponda, resolverá.</p>
-    <p><span style="color: #ff00ff"><strong>INSTRUCTIVO PARA EL TESISTA</strong><span></p>
-    <br> 
-    <p><span style="color: #ff00ff"><strong>PRESENTACION DE TESIS DE GRADO EN FORMATO DIGITAL</strong><span></p>
-    
-    <p>Para depositar la tesis en el Repositorio Digital Universitario RDU, el tesista deberá entregar a la Secretaría los siguientes archivos:</p>
-    <ul>
-    <li> PDF con el contenido de su tesis (con la licencia Creative Commons inserta en el documento)..</li>
-    <li> TXT con el formulario de carga, completado por el autor, con los datos necesarios para subir la tesis al Repositorio.</li>
-    </ul>
-    <p>A continuación se enumeran aspectos técnicos, sugerencias de inclusión y un pequeño lineamiento para la selección de la licencia CreativeCommons</p>
-    <br>
-    <p><span style="color: #ff00ff"><strong>ASPECTOS TECNICOS:</strong><span></p>
-    
-    <p>La versión digital del documento debe presentarse en un solo archivo en formato PDF, y 
-    en el caso de presentar anexos, éstos serán guardados por separado, agruparlos de acuerdo al 
-    tipo de formato (Texto, Imagen, Audio, Video).</p>
+    );
+    incluir_seccion_hijo("google_slides","Google Slides","apps_diseño")
+    actualizar_parrafo("google_slides",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Antes de comenzar este tiene como fin solo informar, si usted quiere saber, recurra a fuentes de información confiables y oficial de la universidad.</p>
+    <p>Usted Se preguntará, <strong>¿Por qué tengo que presentar mi trabajo final/tesis/informe de PSS para que forme parte del repositorio digital de la Universidad?</strong></p>
+   <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
-    <p>El archivo en PDF deberá ser indexable, (no una imagen), preferentemente  un PDF etiquetado.</p>
-    <p>En cuanto al nombre del archivo se solicita que se guarde con la siguiente 
-    modalidad: apellido espacio guión espacio las cinco primeras palabras del 
-    título, máx. 25 caracteres.</p>
-    <br> 
-    <p><span style="color: #ff00ff"><strong>ACCESIBILIDAD:</strong><span></p>
-    <br> 
-    <p><span style="color: #ff00ff"><strong> SUGERENCIAS A TENER EN CUENTA:</strong><span></p>
+    );
+    incluir_seccion_hijo("befunky","BeFunky","apps_diseño")
+    actualizar_parrafo("befunky",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Antes de comenzar este tiene como fin solo informar, si usted quiere saber, recurra a fuentes de información confiables y oficial de la universidad.</p>
+    <p>Usted Se preguntará, <strong>¿Por qué tengo que presentar mi trabajo final/tesis/informe de PSS para que forme parte del repositorio digital de la Universidad?</strong></p>
+   <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
-    <p>Es importante incorporar en la elaboración de los contenidos, elementos de accesibilidad, a fin de postular un conocimiento de acceso realmente abierto para todos.</p>
-    <p>Mencionamos algunas:</p>
-    <ul>
-    <li>Diseño general y presentación: utilice alineación a la izquierda (esto ayuda a encontrar el principio del renglón).</li>
-    <li>Explicar las abreviaturas y acrónimos.</p></li>
-    <li>El tamaño de fuente debe ser grande: no se recomiendan letras inferiores a 12 puntos.</li>
-    <li>Para las imágenes, incorporar textos explicativos, ya que el texto que forma parte de una imagen no es accesible, repetirlo por fuera.</li>
-    <li>Diseño general y presentación: utilice alineación a la izquierda (esto ayuda a encontrar el principio del renglón).</li>
-    <li>Para los enlaces, evitar textos como “clic aquí” o “más información”.</li>
-    <li>Algunas personas ciegas navegan por las páginas leyendo únicamente el texto de los enlaces.Insertarlos siempre como hipervínculos.</li>
-    
-    <li>Un documento PDF etiquetado es una versión de PDF que incluye tanto el contenido deldocumento como información sobre su estructura lógica y del orden de lectura, de forma que el documento pueda ser leído correctamente por los lectores de pantalla.</li>
-    </ul>
-    <br> 
-    <p><span style="color: #ff00ff"><strong> LICENCIAS CREATIVECOMMONS:</strong><span></p>
-   
-    <p>La licencia seleccionada debe encontrarse inserta en el cuerpo de la obra (preferentemente en la portada), de este modo, cuando el archivo es descargado, la licencia continúa ligada a la obra.</p>
-    <p>Para seleccionar la licencia, remitirse a:</p>
-    <p><a href="http://www.creativecommons.org.ar/"target="_blank" rel="noopener"><strong> http://www.creativecommons.org.ar/</strong></a></p>
-    <p>El tesista deberá indicar que opciones elije a los efectos de construir la licencia:</p>
-    <ul>
-    <li>En el primer paso se selecciona la característica de la licencia, esto es: si permite adaptaciones o no.</li>
-    </ul>
-    <p>En el caso de responder si, hay que tildar: Sí, siempre que se comparta de la misma manera. Lo cual significa que la obra podrá tener derivados, pero, éstos deberán mantener la misma licencia.</p>
-    <p>En este primer paso, el autor debe optar si permite el uso comercial, o no, de su obra.</p>
-    <p>Las elecciones en este panel actualizarán los otros paneles de esta página.</p></li>
-    <ul>
-    <li>El segundo paso, es opcional. Aquí se pueden agregar metadatos a la licencia, tales como: datos de título y nombre completo del autor</li>
-    <li>El tercer paso consiste en copiar la licencia seleccionada, que se presenta en el último panel. Copiar y pegar en el documento de la tesis.</li>
-    </ul>
-    <br>
-    <p><strong><i>Hay algunos detalles, informacion, archivos de la resolucion aprobada por la universidad, documentaciones oficiales, que quedaron fuera. Les recomendio visitar la Pagina Presentacion de trabajos finales al Repostorio Digital Universal, para acceder a la informacion que no se encuentra presente en este texto.</i></strong></p>
+    );
+    incluir_seccion_hijo("animoto","Animoto","apps_diseño")
+    actualizar_parrafo("animoto",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Antes de comenzar este tiene como fin solo informar, si usted quiere saber, recurra a fuentes de información confiables y oficial de la universidad.</p>
+    <p>Usted Se preguntará, <strong>¿Por qué tengo que presentar mi trabajo final/tesis/informe de PSS para que forme parte del repositorio digital de la Universidad?</strong></p>
+   <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
-    <br><p><strong>Fuente:</strong> Pagina de la Presentacion de trabajos finales al Repostorio Digital Universal.</p>
-    <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
+    );
+    incluir_seccion_hijo("biteable","Biteable","apps_diseño")
+    actualizar_parrafo("biteable",`
+    <p><span style="color: #ff00ff"><i>Extracto del sitio de la Biblioteca FFyH</i><span></p>
+    <p>Antes de comenzar este tiene como fin solo informar, si usted quiere saber, recurra a fuentes de información confiables y oficial de la universidad.</p>
+    <p>Usted Se preguntará, <strong>¿Por qué tengo que presentar mi trabajo final/tesis/informe de PSS para que forme parte del repositorio digital de la Universidad?</strong></p>
+   <p>Para ir al Sitio: <a href="https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/"target="_blank" rel="noopener"><strong>https://ffyh.unc.edu.ar/biblioteca/presentacion-de-trabajos-al-rdu/</strong></a></p>`
 
     );
 
-    incluir_seccion_padre("recursos_digitales_online","RECURSOS DIGITALES Y ONLINE")
-    incluir_seccion_hijo("biblioteca_electronica_mincyt","Biblioteca Elcetrónica Mincyt","recursos_digitales_online")
-    actualizar_parrafo("biblioteca_electronica_mincyt",`
+    incluir_seccion_padre("desarrollo_web","DESARROLO WEB")
+    incluir_seccion_hijo("wix","Biblioteca Elcetrónica Mincyt","desarrollo_web")
+    actualizar_parrafo("wix",`
    
     <p><span style="color: #ff00ff"><strong>¿Que es Biblioteca Elcetrónica Mincyt?</strong></span></p>
     <br>
     <p>Es una biblioteca online, con recursos y base de datos de muchas instituciones.</p>
-    <p>Su principal objetivo es brindar acceso, a través de Internet, 
-   a artículos completos de publicaciones periódicas científicas y
-    tecnológicas, bases de datos referenciales, resúmenes y demás 
-    información bibliográfica nacional e internacional de interés
-     para los integrantes del Sistema de Ciencia y Tecnología.</p>
-     <p>Se trata de una herramienta que brinda bibliografía local e 
-     internacional, resúmenes e información de interés a los integrantes 
-     del Sistema Nacional de Ciencia y Tecnología, mediante Internet. 
-     Fue creada en diciembre de 2002, en línea con lo establecido por 
-     la Ley de Ciencia, Tecnología e Innovación, Nº 25.467.</p>
     <p>Correo Electronico:<a href="mailto:biblioteca@mincyt.gob.ar">biblioteca@mincyt.gob.ar.</a></p>
 
-     <br>
-     <p>Visite pagina de la Biblioteca Elcetrónica Mincyt: <a href="https://biblioteca.mincyt.gob.ar/" target="_blank" rel="noopener noreferrer">https://biblioteca.mincyt.gob.ar/</a></p>
-     <p>Visite el articulo de noticia, de la pagina Argentina. Investigadores podrán acceder a la Biblioteca Electrónica de Ciencia y Tecnología desde sus hogares:</p>
-     <p> <a href="https://www.argentina.gob.ar/noticias/investigadores-podran-acceder-la-biblioteca-electronica-de-ciencia-y-tecnologia-desde-sus#:~:text=Se%20trata%20de%20una%20herramienta,Tecnolog%C3%ADa%20e%20Innovaci%C3%B3n%2C%20N%C2%BA%2025.467." target="_blank" rel="noopener noreferrer">Articulo:  Investigadores podrán acceder a la Biblioteca Electrónica de Ciencia y Tecnología desde sus hogares.</a></p>
+    <br>
+    <p>Visite pagina de la Biblioteca Elcetrónica Mincyt: <a href="https://biblioteca.mincyt.gob.ar/" target="_blank" rel="noopener noreferrer">https://biblioteca.mincyt.gob.ar/</a></p>
+    <p>Visite el articulo de noticia, de la pagina Argentina. Investigadores podrán acceder a la Biblioteca Electrónica de Ciencia y Tecnología desde sus hogares:</p>
+    <p> <a href="https://www.argentina.gob.ar/noticias/investigadores-podran-acceder-la-biblioteca-electronica-de-ciencia-y-tecnologia-desde-sus#:~:text=Se%20trata%20de%20una%20herramienta,Tecnolog%C3%ADa%20e%20Innovaci%C3%B3n%2C%20N%C2%BA%2025.467." target="_blank" rel="noopener noreferrer">Articulo:  Investigadores podrán acceder a la Biblioteca Electrónica de Ciencia y Tecnología desde sus hogares.</a></p>
+    `)
+    incluir_seccion_hijo("wordpress","Wordpress","desarrollo_web")
+    actualizar_parrafo("wordpress",`
+   
+    <p><span style="color: #ff00ff"><strong>¿Que es Biblioteca Elcetrónica Mincyt?</strong></span></p>
+    <br>
+    <p>Es una biblioteca online, con recursos y base de datos de muchas instituciones.</p>
+    <p>Correo Electronico:<a href="mailto:biblioteca@mincyt.gob.ar">biblioteca@mincyt.gob.ar.</a></p>
+
+    <br>
+    <p>Visite pagina de la Biblioteca Elcetrónica Mincyt: <a href="https://biblioteca.mincyt.gob.ar/" target="_blank" rel="noopener noreferrer">https://biblioteca.mincyt.gob.ar/</a></p>
+    <p>Visite el articulo de noticia, de la pagina Argentina. Investigadores podrán acceder a la Biblioteca Electrónica de Ciencia y Tecnología desde sus hogares:</p>
+    <p> <a href="https://www.argentina.gob.ar/noticias/investigadores-podran-acceder-la-biblioteca-electronica-de-ciencia-y-tecnologia-desde-sus#:~:text=Se%20trata%20de%20una%20herramienta,Tecnolog%C3%ADa%20e%20Innovaci%C3%B3n%2C%20N%C2%BA%2025.467." target="_blank" rel="noopener noreferrer">Articulo:  Investigadores podrán acceder a la Biblioteca Electrónica de Ciencia y Tecnología desde sus hogares.</a></p>
     `)
     
     incluir_funcion_botones();
