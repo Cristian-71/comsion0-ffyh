@@ -814,59 +814,69 @@ function carga_inicial() {
 
     incluir_seccion_padre("softwares_alternativos_microsoft_office", "SOFTWARES ALTERNATIVOS A MICROSOFT OFFICE");
 
-    incluir_seccion_hijo("libre_office", "¿Que son las Herramientas Digitales?","softwares_alternativos_microsoft_office")
+    incluir_seccion_hijo("libre_office", "Libre Office, open source.","softwares_alternativos_microsoft_office")
     actualizar_parrafo("libre_office", `
-   <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
+   <p><span style="color: #ff00ff"><strong>¿Qué es Libre Office?</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
-   incluir_seccion_hijo("open_office", "¿Que son las Herramientas Digitales?","softwares_alternativos_microsoft_office")
+    
+    
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
+    incluir_seccion_hijo("open_office", "¿Que son las Herramientas Digitales?","softwares_alternativos_microsoft_office")
    actualizar_parrafo("open_office", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
    <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+   <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("google_docs", "¿Que son las Herramientas Digitales?","softwares_alternativos_microsoft_office")
     actualizar_parrafo("google_docs", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
 
     incluir_seccion_padre("softwares_orientados_documentos_escritos","SOFTWARE ORIENTADOS A DOCUMENTOS ESCRITOS")
     incluir_seccion_hijo("latex", "¿Que son las Herramientas Digitales?","softwares_orientados_documentos_escritos")
    actualizar_parrafo("latex", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("lyx", "¿Que son las Herramientas Digitales?","softwares_orientados_documentos_escritos")
    actualizar_parrafo("lyx", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("texmaker", "¿Que son las Herramientas Digitales?","softwares_orientados_documentos_escritos")
    actualizar_parrafo("texmaker", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
 
    incluir_seccion_padre("softwares_escribir_markdown","SOFTWARES PARA ESCRIBIR EN MARKDOWN")
    incluir_seccion_hijo("zettir", "¿Que son las Herramientas Digitales?","softwares_escribir_markdown")
    actualizar_parrafo("zettir", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
    incluir_seccion_hijo("obsidian", "¿Que son las Herramientas Digitales?","softwares_escribir_markdown")
    actualizar_parrafo("obsidian", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
@@ -878,142 +888,161 @@ function carga_inicial() {
    actualizar_parrafo("stackedit", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("hackmd", "¿Que son las Herramientas Digitales?","softwares_escribir_markdown")
    actualizar_parrafo("hackmd", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
 
    incluir_seccion_padre("nubes_repositorios_digitales_remotos","NUBES Y REPOSITORIOS DIGITALES REMOTOS");
    incluir_seccion_hijo("filen", "¿Que son las Herramientas Digitales?","nubes_repositorios_digitales_remotos")
    actualizar_parrafo("filen", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("koofr", "¿Que son las Herramientas Digitales?","nubes_repositorios_digitales_remotos")
    actualizar_parrafo("koofr", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("sync_com", "¿Que son las Herramientas Digitales?","nubes_repositorios_digitales_remotos")
    actualizar_parrafo("sync_com", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("dropbox", "¿Que son las Herramientas Digitales?","nubes_repositorios_digitales_remotos")
    actualizar_parrafo("dropbox", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("googledrive", "¿Que son las Herramientas Digitales?","nubes_repositorios_digitales_remotos")
    actualizar_parrafo("googledrive", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("box", "¿Que son las Herramientas Digitales?","nubes_repositorios_digitales_remotos")
    actualizar_parrafo("box", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
 
    incluir_seccion_padre("softwares_sistema_gestor_cambios","SOFTWARES DE SISTEMA DE GESTOR DE CAMBIOS");
    incluir_seccion_hijo("git", "¿Que son las Herramientas Digitales?","softwares_sistema_gestor_cambios")
    actualizar_parrafo("git", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("github", "¿Que son las Herramientas Digitales?","softwares_sistema_gestor_cambios")
    actualizar_parrafo("github", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
    incluir_seccion_hijo("gitlab", "¿Que son las Herramientas Digitales?","softwares_sistema_gestor_cambios")
    actualizar_parrafo("gitlab", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
+    <br>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    `)
 
     incluir_seccion_padre("softwares_gestores_bibliograficos","SOFTWARES DE GESTORES BIBLIOGRAFICOS");
     incluir_seccion_hijo("zotero", "¿Que son las Herramientas Digitales?","softwares_gestores_bibliograficos")
     actualizar_parrafo("zotero", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
     incluir_seccion_hijo("zotfile", "¿Que son las Herramientas Digitales?","softwares_gestores_bibliograficos")
     actualizar_parrafo("zotfile", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
     incluir_seccion_hijo("better_bibtex", "¿Que son las Herramientas Digitales?","softwares_gestores_bibliograficos")
     actualizar_parrafo("better_bibtex", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
     incluir_seccion_hijo("zotero_bib", "¿Que son las Herramientas Digitales?","softwares_gestores_bibliograficos")
     actualizar_parrafo("zotero_bib", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
     incluir_seccion_hijo("bibtex", "¿Que son las Herramientas Digitales?","softwares_gestores_bibliograficos")
     actualizar_parrafo("bibtex", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
     incluir_seccion_hijo("jabref", "¿Que son las Herramientas Digitales?","softwares_gestores_bibliograficos")
     actualizar_parrafo("jabref", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
 
     incluir_seccion_padre("softwares_reconocimiento_optico_caracteres","SOFTWARES DE RECONOCIMIENTO OPTICO DE CARACTERES");
     incluir_seccion_hijo("cognitive_open_ocr", "¿Que son las Herramientas Digitales?","softwares_reconocimiento_optico_caracteres")
     actualizar_parrafo("cognitive_open_ocr", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
      <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
+     <br>
+     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+     `)
     incluir_seccion_hijo("tesseract", "¿Que son las Herramientas Digitales?","softwares_reconocimiento_optico_caracteres")
     actualizar_parrafo("tesseract", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
 
     incluir_seccion_padre("softwares_analisis_datos_cualitativos","SOFTWARES DE ANALISIS DE DATOS CUALITATIVOS");
@@ -1022,49 +1051,56 @@ function carga_inicial() {
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("qualcoder", "¿Que son las Herramientas Digitales?","softwares_analisis_datos_cualitativos")
     actualizar_parrafo("qualcoder", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("taguette", "¿Que son las Herramientas Digitales?","softwares_analisis_datos_cualitativos")
     actualizar_parrafo("taguette", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("catma", "¿Que son las Herramientas Digitales?","softwares_analisis_datos_cualitativos")
     actualizar_parrafo("catma", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("kh_koder", "¿Que son las Herramientas Digitales?","softwares_analisis_datos_cualitativos")
     actualizar_parrafo("kh_koder", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("rqda", "¿Que son las Herramientas Digitales?","softwares_analisis_datos_cualitativos")
     actualizar_parrafo("rqda", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("lista_software_acd", "¿Que son las Herramientas Digitales?","softwares_analisis_datos_cualitativos")
     actualizar_parrafo("lista_software_acd", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
 
     incluir_seccion_padre("recursos_informacion_publicar","RECURSOS E INFORMACIÓN PARA PUBLICAR");
@@ -1073,42 +1109,48 @@ function carga_inicial() {
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("miar", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
     actualizar_parrafo("miar", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("donde_lo_publico", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
     actualizar_parrafo("donde_lo_publico", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("lib_gen", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
     actualizar_parrafo("lib_gen", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("mirror_other_link", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
     actualizar_parrafo("mirror_other_link", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("sci_hub", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
     actualizar_parrafo("sci_hub", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
+    <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
+    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
 
     incluir_seccion_padre("otros_recursos_utiles","OTROS RECURSOS ÚTILES");
