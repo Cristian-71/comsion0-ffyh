@@ -239,8 +239,8 @@ function incluir_funcion_botones() {
         show_text_hijo("texmaker");
     }
 
-    document.getElementById("software_escribir_markdown_bt").onclick = function () {
-        show_text_padre("software_escribir_markdown");
+    document.getElementById("softwares_escribir_markdown_bt").onclick = function () {
+        show_text_padre("softwares_escribir_markdown");
     }
     document.getElementById("zettir_bt").onclick = function () {
         show_text_hijo("zettir");
@@ -277,8 +277,8 @@ function incluir_funcion_botones() {
         show_text_hijo("box");
     }
 
-    document.getElementById("software_sistema_gestor_cambios_bt").onclick = function () {
-        show_text_padre("software_sistema_gestor_cambios");
+    document.getElementById("softwares_sistema_gestor_cambios_bt").onclick = function () {
+        show_text_padre("softwares_sistema_gestor_cambios");
     }
     document.getElementById("git_bt").onclick = function () {
         show_text_hijo("git");
@@ -323,7 +323,7 @@ function incluir_funcion_botones() {
     }
 
     document.getElementById("softwares_analisis_datos_cualitativos_bt").onclick = function () {
-        show_text_padre("softwares_analisis_datos_cualitativos ");
+        show_text_padre("softwares_analisis_datos_cualitativos");
     }
     document.getElementById("atlas_ti_bt").onclick = function () {
         show_text_hijo("atlas_ti");
@@ -370,7 +370,7 @@ function incluir_funcion_botones() {
     }
 
     document.getElementById("otros_recursos_utiles_bt").onclick = function () {
-        show_text_padre("otros_recursos_utile");
+        show_text_padre("otros_recursos_utiles");
     }
     document.getElementById("anki_bt").onclick = function () {
         show_text_hijo("anki");
@@ -867,13 +867,6 @@ function carga_inicial() {
    <br>
     <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
    `)
-   incluir_seccion_hijo("zettir", "¿Que son las Herramientas Digitales?","softwares_escribir_markdown")
-   actualizar_parrafo("zettir", `
-   <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
-    <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-   <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-   `)
    incluir_seccion_hijo("obsidian", "¿Que son las Herramientas Digitales?","softwares_escribir_markdown")
    actualizar_parrafo("obsidian", `
    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
@@ -1091,13 +1084,6 @@ function carga_inicial() {
     `)
     incluir_seccion_hijo("donde_lo_publico", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
     actualizar_parrafo("donde_lo_publico", `
-    <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
-    <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
-    <p><strong>Fuente:</strong> Clase 1. Curso de Tecnologias Interactivas. Academia Buenos Aires Emprende, Septiembre 2022.</p>
-    `)
-    incluir_seccion_hijo("lib_gen", "¿Que son las Herramientas Digitales?","recursos_informacion_publicar")
-    actualizar_parrafo("lib_gen", `
     <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
