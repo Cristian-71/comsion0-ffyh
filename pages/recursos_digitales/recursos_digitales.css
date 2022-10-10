@@ -460,7 +460,16 @@ li{
     }
 }
 
-
+  #contenido_main table .table {margin: 0 auto; 
+    border-collapse: collapse; 
+    table-layout: fixed;
+     width: 100%; 
+     border-collapse: collapse; 
+     border: 3px solid black; 
+    }
+    #contenido_main table,td {
+        border: 1px solid black;
+    }
 
 /*Aquí debajo va el FOOTER*/
 footer {
