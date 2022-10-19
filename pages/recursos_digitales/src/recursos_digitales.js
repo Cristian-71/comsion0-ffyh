@@ -1019,26 +1019,140 @@ function carga_inicial() {
     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”. <a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller.</a></p>
     `)
 
-    incluir_seccion_padre("softwares_orientados_documentos_escritos", "SOFTWARE ORIENTADOS A DOCUMENTOS ESCRITOS")
-    incluir_seccion_hijo("latex", "¿Que son las Herramientas Digitales?", "softwares_orientados_documentos_escritos")
+    incluir_seccion_padre("softwares_orientados_documentos_escritos", "SOFTWARES ORIENTADOS A DOCUMENTOS ESCRITOS")
+    incluir_seccion_hijo("latex", "Latex", "softwares_orientados_documentos_escritos")
     actualizar_parrafo("latex", `
-   <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
-    <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
+    <p><span style="color: #ff00ff"><strong>¿Qué es Latex?</strong></span></p>
+    <p>LATEX es un sistema de composición de textos que permite obtener fácilmente 
+    resultados de calidad profesional. 
+    Para asimilar correctamente la forma de trabajar con LATEX
+    conviene entender desde el primer momento que el LATEX no es en absoluto un procesador
+    de textos, sino <span style="color:#ff0000"><strong>un lenguaje de programación orientado 
+    a la generación de textos</strong></span>. 
+    Un procesador de textos es una aplicación informática que permite al usuario ir generando el
+    texto deseado, mientras que <strong>las aplicaciones que nos permiten trabajar con LATEX no son
+    “el LATEX”, sino aplicaciones capaces de leer un <i>“código fuente”</i> escrito por el usuario en el
+    lenguaje LATEX e interpretarlo para generar un texto a partir de él.</strong></p>
+    <br>
+    <p><span style="color: #ff00ff"><strong>¿Cómo surgió Latex?</strong></span></p>
+    <p>Para entender el funcionamiento actual del LATEX conviene conocer un poco de su
+    historia. En 1978 Donald Knuth presentó la primera versión del lenguaje TEX, cuya
+    naturaleza es la misma que acabamos de describir para el LATEX, pero con la diferencia
+    de que es un lenguaje de relativamente “bajo nivel”, es decir, que requiere generar mucho
+    código fuente para conseguir que el texto generado tenga alguna característica deseada.
+    Sin embargo, entre las características que confieren al TEX su gran potencia se encuentra
+    la de que permite generar “macros”, es decir, “programas”, bloques de código, que definen
+    instrucciones complejas a partir de otras más simples, de modo que basta escribir una
+    instrucción definida en una “macro” para obtener rápidamente un efecto que puede requerir
+    muchas y complejas líneas de instrucciones TEX. En 1983 Leslie Lamport presentó la
+    primera versión del LATEX, que no es sino una “macro" gigantesca de TEX que define un
+    lenguaje de “alto nivel” con el que resulta mucho más fácil el trabajo. La versión actual
+    de LATEX se llama LATEX 2ε y data de 1994.</p>
+    
+    
+    
+    <br>
+    <p><strong>Fuente:</strong> Introducción a Latex. <a href="https://www.uv.es/~ivorra/Latex/LaTeX.pdf" target="_blank" rel="noopener">Documento informativo.</a></p>
+    <p><strong>Fuente:</strong> Definición de Open Office. <a href="https://definicion.de/open-office/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <br>
+    <p><span style="color: #ff00ff"><strong>Entonces Latex es...</strong></span></p>
+    
+    <p>Latex, es un sistema que ayuda al usuario a preparar un documento. Con él puedes preparar 
+    cualquier tipo de documento para presentarlo tanto en papel como en pantalla tales como 
+    manuscritos, cartas, artículos de revistas y tesis.</p>
+
+    <p>Existen procesadores de textos tales como Microsoft Word, la diferencia es la calidad     
+    profesional de los documentos que produce Latex. La calidad de imprenta de Latex pueden 
+    ser usados en areas como química, física, computación, biología, leyes, literatura, música 
+    y en cualquier otro tema el cuál usen simbologías.</p>
+
+    <p>Otra catacterística es que te permite separar el contenido y el formato del documento. 
+    Así tener la oportunidad de concentrarte en generar y escribir ideas en una parte y 
+    plasmar esas ideas en otra.</p>
+    <br>
+    <p><strong>Fuente:</strong> ¿Qué es LaTeX y para qué sirve? <a href="http://micaminomaster.com.co/herramientas-desarrollo/que-es-latex-y-para-que-sirve/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <br>
+
+    <p><strong>Descargar software:</strong> Proyect Latex Windows. <a href="https://latex-project.softonic.com/" target="_blank" rel="noopener">https://latex-project.softonic.com/</a></p>
+    
+    <br>
+    <p><span style="color: #ff00ff"><strong>Guía y tutoriales para utilizar LaTex.</strong></span></p>
+    <p><strong>Fuente:</strong> ¿Cuál es el mejor procesador de textos LaTeX para tu tesis, PFC o TFM? 
+    <a href="https://borrowbits.com/2013/04/procesador-de-textos-gummi/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <p><strong>Post de Blog:</strong> LaTeX, escribiendo con clases (parte 1). <a href="https://blog.desdelinux.net/latex-escribiendo-con-clase-parte-1/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <p><strong>Post de Blog:</strong> LaTeX, escribiendo con clases (parte 2). <a href="https://blog.desdelinux.net/latex-escribiendo-con-clase-parte-2/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <p><strong>Post de Blog:</strong> LaTeX, escribiendo con clases (parte 3). <a href="https://blog.desdelinux.net/latex-escribiendo-con-clase-parte-3/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <p><strong>Post de Blog:</strong> LaTeX, escribiendo con clases (parte 4). <a href="https://blog.desdelinux.net/latex-escribiendo-con-clase-parte-4/" target="_blank" rel="noopener">Sitio informativo.</a></p>
+    <br>
+    <p><strong><i>LATEX, COMO SE MENCIONADO, ES MAS QUE UN PROCESADOR DE TEXTO, ES SIMILAR A UN LENGUAJE
+    DE PROGRAMACIÓN, QUE SE UTILIZAN COMANDOS, PALABRAS CLAVES, PARA HACER UN TITULO, AGREGAR UN PARRAFO,
+    AGREGAR METADATOS DEL DOCUMENTO, ETC. LO IMPORTANTE EN UTILIZAR ESTE SISTEMA, ES QUE TE PERMITE PRODUCIR
+    DESDE UN "CODIGO FUENTE" VARIOS TIPOS DE DOCUMENTOS, EN DIFERENTES FORMATOS. QUIZÁS TE SEA ÚTIL, SI QUERÉS
+    PUBLICAR UNA REVISTA, HACER TU TESIS, Y A POSTERIOR MODIFICARLA PARA PUBLICAR. LATEX TE FACILITARÌA, CAMBIAR
+    DE FORMATO, CON SÓLO HABER ESCRITO UNA SÓLA VEZ. POR ESO ES IMPORTANTE APRENDER A MANEJAR LATES.
+    COMO EL SISTEMA OPERATIVO QUE MANEJO ES LINUX/GNU, LA MAYORIA DE LAS RECOMENDACIONES APUNTAN A ESE SISTEMA OPERATIVO.
+    ESPERO QUE TE HAYA SIDO ÚTIL ESTA INFORMACIÓN RECOPILADA.</i></strong></p>
+    
+    
+    
     <br>
     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
-    incluir_seccion_hijo("lyx", "¿Que son las Herramientas Digitales?", "softwares_orientados_documentos_escritos")
+    incluir_seccion_hijo("lyx", "Lyx", "softwares_orientados_documentos_escritos")
     actualizar_parrafo("lyx", `
-   <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
-    <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
-    <br>
+   <p><span style="color: #ff00ff"><strong>¿Qué es Lyx?</strong></span></p>
+   
+   <p>Podemos decir que: </p>
+   <p>LyX es un procesador de documentos que fomenta un enfoque basado en la estructura 
+    (WYSIWYM) y no simplemente en el formato o el aspecto (WYSIWYG) para la composición de documentos.</p>
+   
+    <p>LyX combina la potencia de TeX/LaTeX con la facilidad de uso de una interfaz gráfica. </p>
+    <p>Esto resulta en un soporte universal para la creación de contenido matemático (mediante un editor de 
+    ecuaciones totalmente integrado) y documentos estructurados como artículos académicos, tesis o libros. </p>
+   
+    <p>LyX quienes dar a sus escritos un aspecto excelente, de manera directa e inmediata.  </p>
+    <p>Está publicado como software libre, y está disponible para distintos sistemas operativos incluidos 
+   aquellos no libres.</p>
+   
+   <p>Pero manejar un procesador con tanta potencia de edición y opciones es algo sencillo cuando se 
+   le dedica tiempo y además se encuentran recursos tan buenos como el libro que ha escrito Ricardo G. 
+   Berlasso también conocido como «El Pingüino Tolkiano». Que acaba de publicar un extenso libro sobre 
+   que viene a completar, corregir y ampliar los artículos que de vez en cuando ha publicado en su blog. </p>
+   
+   <p>Todo ese material bien revisado, estructurado, compilado y reunido en un 
+   libro que acaba de publicar y que puedes consultar de manera libre, ya que está publicado bajo licencia CC-by-sa. </p>
+   
+   <p>Ricardo aka RGB presenta un libro sobre LyX, se titula «LyX, la otra forma de escribir» 
+   y tal como el propio escritor nos dice, está escrito mayormente en la versión 2.2, aunque también 
+    presenta las principales novedades:  </p>
+   
+    <p>Son 196 páginas de puro formato y tipografía que te ayudarán a obtener resultados inimaginables 
+   con otros procesadores de documentos. </p>
+   
+   <p>El libro parte de la base y hace un repaso inicial a qué es para después profundizar 
+   en todas las opciones que nos ofrece para conseguir sacarle todo el potencial y saber
+   aprovecharnos de todas las funcionalidades que nos brinda. </p>
+   
+   <p><strong>Si estás buscando un buen libro para aprender a manejar LyX o aprender cosas nuevas que quizás no 
+   conocías te recomiendo pasar por su página oficial y desde allí conseguir este gran libro para manejar 
+   este procesador de documentos.</strong> </p>
+   
+   <p>Como he dicho el libro está publicado con licencia libre y puedes descargarlo de manera 
+   libre en formato PDF, pero puedes además conseguirlo en otros formatos.</p>
+   
+   <p>Además si el libro te ha resultado especialmente útil e interesante también puedes agradecérselo al 
+   escritor mediante una donación.</p>
+   
+   
+   
+   <br>
     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
     <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”<a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
-    incluir_seccion_hijo("texmaker", "¿Que son las Herramientas Digitales?", "softwares_orientados_documentos_escritos")
+    incluir_seccion_hijo("texmaker", "TexMaker", "softwares_orientados_documentos_escritos")
     actualizar_parrafo("texmaker", `
-   <p><span style="color: #ff00ff"><strong>Herramientas Digitales:</strong></span></p>
+   <p><span style="color: #ff00ff"><strong>¿Qué es TexMaker?</strong></span></p>
     <p>Las herramientas digitales son todos los recursos de software (algunos incluyen en su defición al hardware que contiene software) presentes en computadoras y dispositivos relacionados, que permite realizar o facilitar todo tipo de actividades.</p>
     <br>
     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
