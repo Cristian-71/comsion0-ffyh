@@ -1151,7 +1151,7 @@ function carga_inicial() {
     <p><strong>Fuente:</strong> Talleres de Herramientas Informáticas de la Investigación en Humanidades. Secretaria de Oficina de Graduados FFyH. Centro de Investigaciones de la Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba Octubre 2019.</p>
     
     
-    <p><strong>Fuente:</strong> Links y recursos del taller “Ladran, pero no muerden”. <a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
+    <p><strong>Fuente:</strong> Links y recursos del taller: “Ladran, pero no muerden”. <a href="https://errejulian.github.io/ladran/" target="_blank" rel="noopener">Recursos del taller</a></p>
     `)
     incluir_seccion_hijo("texmaker", "TexMaker", "softwares_orientados_documentos_escritos")
     actualizar_parrafo("texmaker", `
